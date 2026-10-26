@@ -62,7 +62,7 @@
 
   const NAV_ITEMS = [
     { page: "overview", href: "index.html", labelZh: "总览", labelEn: "Overview", icon: "layout-dashboard" },
-    { page: "signals", href: "signals.html", labelZh: "舆情监测", labelEn: "Signals", icon: "radar" },
+    { page: "signals", href: "signals.html", labelZh: "热点风险", labelEn: "Signals", icon: "radar" },
     { page: "prediction", href: "prediction.html", labelZh: "预测市场", labelEn: "Prediction Research", icon: "chart" },
     { page: "methodology", href: "methodology.html", labelZh: "产品说明", labelEn: "Product Guide", icon: "book-open" },
   ];
@@ -125,6 +125,7 @@
             <button class="icon-button mobile-menu-button" id="mobile-menu-button" type="button" aria-label="${t("打开导航", "Open navigation")}" aria-expanded="false">${icon("menu")}</button>
           </div>
         </div>
+        <div class="prototype-strip"><span class="prototype-badge">PORTFOLIO PROTOTYPE · v2.0</span><span>${t("面向 Web3 运营与预测市场研究 · 公开来源示例快照 · 手动更新 · 非实时生产系统", "Web3 operations & prediction research · public-source sample snapshot · manual refresh · not a live production system")}</span></div>
         <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">${mobileNav}</nav>
       </header>
     `;
@@ -147,7 +148,7 @@
         </div>
         <div class="footer-meta">
           <span>${t("公开数据观察 · 非投资建议", "Observed public data · Not financial advice")}</span>
-          <span>SignalFi · Stage 1</span>
+          <span>SignalFi · Portfolio Prototype v2.0</span>
         </div>
       </footer>
     `;
@@ -218,7 +219,7 @@
     const live = state.data.mode !== "demo";
     const pill = $("#mode-pill");
     pill?.classList.toggle("demo", !live);
-    if ($("#mode-label")) $("#mode-label").textContent = live ? t("已观测数据", "OBSERVED DATA") : t("演示快照", "DEMO SNAPSHOT");
+    if ($("#mode-label")) $("#mode-label").textContent = live ? t("公开数据快照", "PUBLIC SNAPSHOT") : t("示例数据", "SAMPLE DATA");
     if ($("#header-sync")) $("#header-sync").textContent = `${t("最后同步", "LAST SYNC")} ${formatSyncTime(state.view.generatedAt)}`;
   }
 
@@ -823,14 +824,4 @@
     numberOrNull, validDate,
   };
 })();
-
-
-
-
-
-
-
-
-
-
 

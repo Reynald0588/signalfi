@@ -16,6 +16,7 @@
       <section class="methodology-layout">
         <aside class="panel methodology-index">${methodIndex()}</aside>
         <div class="methodology-content">
+          ${projectStatusSection()}
           ${pipelineSection()}
           ${sourcesSection(view)}
           ${scoringSection()}
@@ -43,13 +44,16 @@
   function methodologyHead(view) {
     return `
       <div class="page-title-block"><div class="eyebrow">${icon("book-open", "icon icon-sm")}PRODUCT GUIDE · METHODOLOGY</div><h1>${t("产品说明书", "Product Guide")}</h1><p>${t("解释 SignalFi 如何选择来源、处理数据、定义热点与风险，以及如何判断一个事件是否适合进入预测市场研究。", "How SignalFi selects sources, processes data, defines heat and risk, and decides whether an event is suitable for prediction-market research.")}</p></div>
-      <div class="page-head-side methodology-meta"><span>${t("数据模式", "Data mode")} <b>${view.mode === "demo" ? "DEMO" : "OBSERVED"}</b></span><span>${t("最后同步", "Last sync")} <b>${escapeHTML(SF.formatSyncTime(view.generatedAt))}</b></span></div>`;
+      <div class="page-head-side methodology-meta"><span>${t("版本", "Version")} <b>v2.0</b></span><span>${t("用途", "Purpose")} <b>${t("求职演示原型", "Job-search prototype")}</b></span><span>${t("数据模式", "Data mode")} <b>${view.mode === "demo" ? t("示例数据", "SAMPLE DATA") : t("公开数据快照", "PUBLIC SNAPSHOT")}</b></span><span>${t("最后同步", "Last sync")} <b>${escapeHTML(SF.formatSyncTime(view.generatedAt))}</b></span></div>`;
   }
 
   function methodIndex() {
     return `<span class="section-kicker">ON THIS PAGE</span><nav class="method-links">${[
-      ["#method-pipeline", t("处理流程", "Pipeline")], ["#method-sources", t("数据来源", "Sources")], ["#method-scoring", t("热度与风险", "Heat & risk")], ["#method-status", t("事实与状态", "Evidence states")], ["#method-prediction", t("预测市场筛选", "Prediction screening")], ["#method-ai", t("AI 边界", "AI boundaries")], ["#method-case", t("案例模板", "Case study")], ["#method-limits", t("当前限制", "Limitations")],
+      ["#project-status", t("项目状态", "Project status")], ["#method-pipeline", t("处理流程", "Pipeline")], ["#method-sources", t("数据来源", "Sources")], ["#method-scoring", t("热度与风险", "Heat & risk")], ["#method-status", t("事实与状态", "Evidence states")], ["#method-prediction", t("预测市场筛选", "Prediction screening")], ["#method-ai", t("AI 边界", "AI boundaries")], ["#method-case", t("案例模板", "Case study")], ["#method-limits", t("当前限制", "Limitations")],
     ].map(([href, label]) => `<a href="${href}" data-method-link>${label}${icon("arrow-right", "icon icon-sm")}</a>`).join("")}</nav><div class="method-note">${icon("activity")}<span>${t("方法的目标是可解释和可复核，而不是制造预测能力。", "The goal is explainability and reviewability, not pretending to predict the future.")}</span></div>`;
+  }
+  function projectStatusSection() {
+    return `<section class="panel method-section project-status-section" id="project-status"><div class="method-section-head"><span class="section-kicker">00 · PROJECT STATUS</span><h2>${t("项目状态与我的工作", "Project status and my work")}</h2><p>${t("当前版本是面向求职展示的轻量原型，优先展示产品判断、业务规则和可交互工作流，而不是伪装成已经上线的生产系统。", "This version is a lightweight prototype for job-search presentation. It demonstrates product judgment, business rules and an interactive workflow rather than pretending to be a live production system.")}</p></div><div class="project-status-grid"><article><span class="status-chip confirmed">${t("已实现", "Implemented")}</span><ul><li>${t("四页面可交互前端原型", "Four interactive front-end pages")}</li><li>${t("热点事件筛选、搜索与详情", "Signal filtering, search and detail")}</li><li>${t("来源证据链与风险依据", "Evidence chain and risk rationale")}</li><li>${t("预测市场候选研究", "Prediction-market candidate research")}</li><li>${t("中英文切换、Markdown 与 PDF", "Bilingual UI, Markdown and PDF")}</li></ul></article><article><span class="status-chip monitoring">${t("原型 / 技术验证", "Prototype / validated")}</span><ul><li>${t("公开 RSS、CoinGecko、Polymarket 快照", "Public RSS, CoinGecko and Polymarket snapshot")}</li><li>${t("Python 采集脚本可在本地运行", "Local Python collection script")}</li><li>${t("GitHub Actions 配置已准备但未启用", "GitHub Actions prepared but not activated")}</li><li>${t("中文翻译缓存与可选 AI 接口", "Chinese translation cache and optional AI interface")}</li></ul></article><article><span class="status-chip rising">${t("规划中", "Planned")}</span><ul><li>${t("自动定时更新与正式部署", "Scheduled updates and production deployment")}</li><li>${t("多平台社交数据接入", "Multi-platform social ingestion")}</li><li>${t("事件历史与跨运行跟踪", "Persistent event history")}</li><li>${t("用户活动数据与运营复盘", "Campaign analytics and operations review")}</li><li>${t("深度 AI 分析与真实案例沉淀", "Deeper AI analysis and verified case studies")}</li></ul></article></div><div class="my-work-note"><div>${icon("file-search", "icon icon-sm")}<span class="section-kicker">${t("我的工作", "MY WORK")}</span></div><p>${t("我负责产品定位、目标用户与业务场景定义、页面信息架构、功能取舍、业务规则和验收标准，并使用 Codex 辅助完成代码实现、调试与迭代。", "I defined the product positioning, target users, information architecture, scope trade-offs, business rules and acceptance criteria, and used Codex to assist with implementation, debugging and iteration.")}</p><div class="my-work-tags"><span>${t("产品规划", "Product planning")}</span><span>${t("需求拆解", "Requirements")}</span><span>${t("业务流程", "Business logic")}</span><span>${t("测试验收", "QA")}</span><span>${t("Codex 协作开发", "Codex-assisted development")}</span></div></div></section>`;
   }
   function pipelineSection() {
     return `<section class="panel method-section" id="method-pipeline"><div class="method-section-head"><span class="section-kicker">01 · PIPELINE</span><h2>${t("从公开信息到可读情报", "From public information to readable intelligence")}</h2><p>${t("流程保持可追踪：先采集和清洗，再做规则判断，最后才用 AI 处理少量高价值文本。", "The pipeline is traceable: collect and normalize first, apply rules next, then use AI only for a small set of high-value text.")}</p></div><div class="pipeline-flow">${[
@@ -95,5 +99,4 @@
     ].map(([title, note]) => `<div><span>${icon("alert-triangle", "icon icon-sm")}</span><strong>${title}</strong><p>${note}</p></div>`).join("")}</div><div class="method-footer-note">${t("Stage 1 的目标是打通产品结构、信息层级和分析工作流；真实数据接入、历史事件状态和持续部署将在后续阶段完成。", "Stage one focuses on product structure, information hierarchy and the analysis workflow. Live ingestion, persistent event history and continuous deployment follow in later stages.")}</div></section>`;
   }
 })();
-
 

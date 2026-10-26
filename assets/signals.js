@@ -10,7 +10,7 @@
     const view = state.view;
     const main = document.querySelector("#app-main");
     if (!view || !main) return;
-    SF.setDocumentTitle(t("舆情监测工作台", "Public Opinion Workbench"));
+    SF.setDocumentTitle(t("热点与风险工作台", "Signals & Risk Workbench"));
     const selected = getSelectedEvent();
     main.innerHTML = `
       <section class="page-head signals-page-head">${signalsHead(view)}</section>
@@ -69,9 +69,9 @@
   function signalsHead(view) {
     return `
       <div class="page-title-block">
-        <div class="eyebrow">${icon("radar", "icon icon-sm")}PUBLIC OPINION · WORKBENCH</div>
-        <h1>${t("舆情监测工作台", "Public Opinion Workbench")}</h1>
-        <p>${t("筛选、排序并调查事件。打开任意事件查看来源证据链、风险依据和后续监测建议。", "Filter, rank and investigate events. Open any signal for its evidence chain, risk rationale and follow-up guidance.")}</p>
+        <div class="eyebrow">${icon("radar", "icon icon-sm")}PUBLIC OPINION & RISK · WORKBENCH</div>
+        <h1>${t("热点与风险工作台", "Signals & Risk Workbench")}</h1>
+        <p>${t("筛选、排序并调查热点事件。打开事件查看来源证据链、风险依据，以及可供运营跟进的下一步动作。", "Filter, rank and investigate signals. Open any event for its evidence chain, risk rationale and operational follow-up guidance.")}</p>
       </div>
       <div class="page-head-side compact-stat-pair">
         <span><b>${view.stats.active}</b><small>${t("活跃信号", "Active")}</small></span>
@@ -163,7 +163,7 @@
       <div class="detail-insight">${icon("activity", "icon icon-sm")}<p>${escapeHTML(event.analysis || t("暂无分析。", "No analysis available."))}</p></div>
       <section class="detail-section"><div class="detail-section-heading"><h3>${t("来源证据链", "Evidence chain")}</h3><span>${sources.length}</span></div><div class="evidence-list">${sources.length ? sources.map((source, index) => `<a class="evidence-link" href="${SF.safeUrl(source.url)}" target="_blank" rel="noopener noreferrer"><span class="evidence-number">${String(index + 1).padStart(2, "0")}</span><span class="evidence-main"><b>${escapeHTML(source.name || "Source")}</b><small>${escapeHTML(source.domain || SF.relativeTime(source.published))} · ${escapeHTML(SF.formatDateTime(source.published))}</small></span>${icon("external-link", "icon icon-sm")}</a>`).join("") : `<div class="empty-state">${t("暂无来源链接。", "No source links.")}</div>`}</div></section>
       <section class="detail-section"><div class="detail-section-heading"><h3>${t("风险依据", "Risk rationale")}</h3></div><p class="detail-paragraph">${escapeHTML(event.risk_reason || t("未发现强风险信号。", "No strong risk signal detected."))}</p></section>
-      <section class="detail-section"><div class="detail-section-heading"><h3>${t("监测建议", "Monitoring guidance")}</h3></div><ul class="guidance-list"><li>${t("继续观察是否出现官方回应或第二个独立可靠来源。", "Watch for an official response or a second independent source.")}</li><li>${t("比较下一轮来源数量与风险词变化，避免把旧消息当作新热点。", "Compare source counts and risk terms in the next cycle; avoid treating old news as new.")}</li><li>${t("如涉及明确结果与截止时间，转入 Prediction Research 评估。", "If there is a clear outcome and deadline, assess it in Prediction Research.")}</li></ul></section>
+      <section class="detail-section"><div class="detail-section-heading"><h3>${t("运营与监测建议", "Operations & monitoring guidance")}</h3></div><ul class="guidance-list"><li>${t("继续观察是否出现官方回应或第二个独立可靠来源。", "Watch for an official response or a second independent source.")}</li><li>${t("比较下一轮来源数量与风险词变化，避免把旧消息当作新热点。", "Compare source counts and risk terms in the next cycle; avoid treating old news as new.")}</li><li>${t("如涉及明确结果与截止时间，转入 Prediction Research 评估。", "If there is a clear outcome and deadline, assess it in Prediction Research.")}</li></ul></section>
       <section class="detail-section"><div class="detail-section-heading"><h3>${t("相关事件", "Related signals")}</h3></div><div class="related-list">${related.length ? related.map((item) => `<button type="button" class="related-event" data-related-event="${escapeHTML(item.id)}"><span>${escapeHTML(item.title)}</span><b class="risk-text">${escapeHTML(SF.riskLabel(item.risk))}</b></button>`).join("") : `<span class="muted-text">${t("暂无相关事件。", "No related signals.")}</span>`}</div></section>
       <div class="detail-panel-actions"><a class="button button-ghost" href="prediction.html">${icon("chart")}${t("查找预测候选", "Find prediction candidates")}</a></div>`;
   }
@@ -173,6 +173,4 @@
     if (panel) panel.innerHTML = detailPanel(getSelectedEvent());
   }
 })();
-
-
 

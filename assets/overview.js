@@ -51,21 +51,29 @@
   }
   function pageHead(view) {
     const stats = view.stats;
+    const demoEvent = view.events[0];
+    const demoHref = demoEvent ? `signals.html?event=${encodeURIComponent(demoEvent.id)}&demo=1` : "signals.html";
     return `
       <div class="page-title-block">
-        <div class="eyebrow"><span class="live-dot"></span>GLOBAL WEB3 · OBSERVED INTELLIGENCE</div>
-        <h1>${t("情报总览", "Intelligence Overview")}</h1>
-        <p>${t("快速掌握正在发生、正在升温，以及值得进一步研究的事件。所有指标均基于当前已接入来源。", "See what is happening, what is rising and what deserves deeper research. All metrics are scoped to connected sources.")}</p>
+        <div class="eyebrow"><span class="live-dot"></span>SIGNALFI · WEB3 OPERATIONS & PREDICTION RESEARCH</div>
+        <h1>${t("Web3 运营与预测研究工作台", "Web3 Operations & Prediction Research Workbench")}</h1>
+        <p>${t("将公开热点、风险信号和预测市场候选问题整理成可追溯的工作台，帮助运营判断先看什么、跟进什么，以及形成下一步动作。", "Turn public signals, risk alerts and prediction candidates into a traceable workbench for deciding what to watch, follow up and act on next.")}</p>
+        <div class="positioning-tags">
+          <span><b>${t("适用场景", "For")}</b> ${t("Web3 用户运营 · 预测市场研究", "Web3 operations · Prediction research")}</span>
+          <span><b>${t("已实现", "Implemented")}</b> ${t("热点聚合 · 风险提醒 · 预测候选 · 简报导出", "Signal aggregation · Risk alerts · Prediction candidates · Brief export")}</span>
+        </div>
       </div>
       <div class="page-head-side">
+        <div class="portfolio-status"><span class="status-dot"></span>${t("求职作品集原型 · 示例数据", "Portfolio prototype · Sample data")}</div>
         <div class="source-health-inline">
           <span class="health-dot ${stats.activeSources === stats.totalSources ? "ok" : "warn"}"></span>
           <span>${t("数据源", "Sources")} <b>${stats.activeSources}/${stats.totalSources}</b></span>
           <span class="muted">${t("最后同步", "Last sync")} ${escapeHTML(SF.formatSyncTime(view.generatedAt))}</span>
         </div>
         <div class="page-head-actions">
-          <button class="button button-primary" id="overview-brief" type="button">${icon("file-search")}${t("打开情报简报", "Open intelligence brief")}</button>
-          <button class="button button-ghost" id="overview-download" type="button">${icon("download")}${t("导出 Markdown", "Export Markdown")}</button>
+          <a class="button button-primary" href="${demoHref}">${icon("arrow-right")}${t("开始 2 分钟演示", "Start 2-minute demo")}</a>
+          <button class="button button-ghost" id="overview-brief" type="button">${icon("file-search")}${t("查看情报简报", "View brief")}</button>
+          <button class="button button-ghost" id="overview-download" type="button">${icon("download")}${t("Markdown", "Markdown")}</button>
         </div>
       </div>`;
   }
@@ -73,10 +81,10 @@
   function kpiCards(view) {
     const stats = view.stats;
     return [
-      kpiCard("radar", t("活跃信号", "Active signals"), stats.active, t("当前观察期内的事件", "Events in the current observation window"), "brand", sparkline(view.trend.values, "brand")),
-      kpiCard("activity", t("正在升温", "Rising now"), stats.rising, t("新近出现且热度较高的事件", "Recent events with elevated observed heat"), "amber", sparkline(view.trend.values.slice().reverse(), "amber")),
-      kpiCard("bell-ring", t("风险关注", "Risk watch"), stats.risk, t("风险分达到关注阈值", "Events at or above the risk threshold"), "risk", riskBars(view.events)),
-      kpiCard("file-search", t("预测研究候选", "Prediction research"), stats.research, `${stats.marketLinked} ${t("个公开市场关联", "market-linked")}`, "violet", donut(stats.marketLinked, stats.research)),
+      kpiCard("radar", t("观察事件", "Observed events"), stats.active, t("当前样本中的热点事件", "Signals in the current sample"), "brand", sparkline(view.trend.values, "brand")),
+      kpiCard("activity", t("升温事件", "Rising signals"), stats.rising, t("新近出现且观察热度较高", "Recent signals with elevated observed heat"), "amber", sparkline(view.trend.values.slice().reverse(), "amber")),
+      kpiCard("bell-ring", t("风险提醒", "Risk alerts"), stats.risk, t("风险分达到关注阈值的事件", "Signals at or above the risk threshold"), "risk", riskBars(view.events)),
+      kpiCard("file-search", t("预测候选", "Prediction candidates"), stats.research, `${stats.marketLinked} ${t("个公开市场关联", "market-linked")}`, "violet", donut(stats.marketLinked, stats.research)),
     ].join("");
   }
 
@@ -223,8 +231,9 @@
   function intelPanels(view) {
     return `
       <section class="panel intel-panel priority-panel">
-        <div class="panel-heading compact"><div><span class="section-kicker">PRIORITY ALERTS</span><h2>${t("优先信号", "Priority signals")}</h2></div>${icon("bell-ring", "icon panel-icon risk-icon")}</div>
+        <div class="panel-heading compact"><div><span class="section-kicker">PRIORITY ALERTS</span><h2>${t("重点风险与行动", "Priority risks & actions")}</h2></div>${icon("bell-ring", "icon panel-icon risk-icon")}</div>
         <div class="priority-list">${priorityList(view.events.slice(0, 3))}</div>
+        <div class="operations-actions"><span class="filter-label">${t("运营视角", "OPERATIONS VIEW")}</span><ul>${(view.report.actions || []).slice(0,3).map((action) => `<li>${escapeHTML(action)}</li>`).join("")}</ul></div>
         <a class="text-link" href="signals.html">${t("查看完整事件流", "View all signals")}${icon("arrow-right", "icon icon-sm inline-icon")}</a>
       </section>
       <section class="panel intel-panel narrative-panel">
@@ -274,6 +283,4 @@
       <a href="methodology.html">${t("查看数据与评分方法", "Review data and scoring method")}${icon("arrow-right", "icon icon-sm inline-icon")}</a>`;
   }
 })();
-
-
 

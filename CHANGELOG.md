@@ -1,5 +1,17 @@
 # SignalFi Changelog
 
+## v2.0-job-demo — 2026-10-26
+
+Job-search demonstration edition focused on Web3 user operations and prediction-market research roles.
+
+- Clarified the product positioning and target use cases on the homepage.
+- Added a persistent portfolio-prototype notice and public-snapshot status.
+- Added a guided demo entry and operational follow-up framing.
+- Renamed Signals to the Signals & Risk Workbench while retaining public-opinion capability.
+- Added an explicit Project Status section covering implemented, prototype/validated and planned capabilities.
+- Added a clear statement of the author's work and Codex-assisted development.
+- Preserved the v1.0 baseline as Git tag v1.0 and backups/SignalFi-v1.0.zip.
+
 ## v1.0 — 2026-10-26
 
 Baseline portfolio prototype before job-demo positioning work.
@@ -13,3 +25,4 @@ Baseline portfolio prototype before job-demo positioning work.
 - Public RSS / CoinGecko / Polymarket snapshot pipeline prepared locally.
 - GitHub Actions workflow prepared but not activated.
 - Current limitations: no scheduled production update, persistent event history, multi-platform social ingestion, database or live AI analysis.
+

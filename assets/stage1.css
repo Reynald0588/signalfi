@@ -173,7 +173,7 @@
 .signal-row-tags span { padding: 2px 5px; border-radius: 4px; color: var(--text-muted); background: var(--white-05); font-size: 7px; }
 .signal-row-score { display: flex; flex-direction: column; align-items: flex-end; justify-content: space-between; gap: 8px; }
 .heat-value { color: var(--text-secondary); font-size: 15px; font-variant-numeric: tabular-nums; }
-.signal-detail-panel { position: sticky; top: 76px; max-height: calc(100vh - 92px); overflow-y: auto; padding: 20px 18px; scrollbar-width: thin; }
+.signal-detail-panel { position: sticky; top: 100px; max-height: calc(100vh - 116px); overflow-y: auto; padding: 20px 18px; scrollbar-width: thin; }
 .detail-panel-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
 .drawer-close { display: none; }
 .detail-panel-title { margin: 14px 0 0; color: var(--text-primary); font-size: 20px; line-height: 1.35; letter-spacing: -.02em; }
@@ -240,7 +240,7 @@
 .candidate-footer { display: flex; justify-content: space-between; gap: 10px; color: var(--text-muted); font-size: 8px; }
 .candidate-footer b { color: var(--research-violet); font-weight: 600; }
 .candidate-row[data-status="research"] .candidate-footer b { color: var(--alert-amber); }
-.prediction-detail-panel { position: sticky; top: 76px; max-height: calc(100vh - 92px); overflow-y: auto; padding: 19px 18px; scrollbar-width: thin; }
+.prediction-detail-panel { position: sticky; top: 100px; max-height: calc(100vh - 116px); overflow-y: auto; padding: 19px 18px; scrollbar-width: thin; }
 .candidate-detail-type { display: inline-block; margin-top: 14px; padding: 4px 6px; border-radius: 4px; color: var(--research-violet); background: var(--violet-soft); font-size: 7px; }
 .candidate-detail-type.research { color: var(--alert-amber); background: var(--amber-soft); }
 .prediction-metrics { margin-top: 15px; }
@@ -254,7 +254,7 @@
 .research-status-note { display: flex; align-items: flex-start; gap: 6px; color: var(--alert-amber); font-size: 8px; line-height: 1.6; }
 .methodology-layout { display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: 14px; align-items: start; }
 .methodology-layout > * { min-width: 0; }
-.methodology-index { position: sticky; top: 76px; min-width: 0; padding: 17px 14px; overflow: hidden; }
+.methodology-index { position: sticky; top: 100px; min-width: 0; padding: 17px 14px; overflow: hidden; }
 .method-links { display: flex; flex-direction: column; gap: 3px; min-width: 0; max-width: 100%; margin-top: 12px; }
 .method-links a { display: flex; justify-content: space-between; gap: 8px; padding: 6px 4px; color: var(--text-secondary); font-size: 9px; text-decoration: none; }
 .method-links a:hover { color: var(--brand-blue-bright); }
@@ -536,4 +536,35 @@ body { font-size: 14px; line-height: 1.6; font-variant-numeric: tabular-nums; }
 .source-health-inline .muted { color: var(--text-muted); }
 
 
+
+.prototype-strip { min-height: 28px; display: flex; align-items: center; justify-content: center; gap: 10px; padding: 5px 18px; border-top: 1px solid var(--border); color: var(--text-muted); background: color-mix(in srgb, var(--panel-base) 92%, transparent); font-size: 11px; text-align: center; }
+.prototype-badge { flex: 0 0 auto; padding: 2px 6px; border: 1px solid color-mix(in srgb, var(--signal-cyan) 24%, transparent); border-radius: 4px; color: var(--signal-cyan); font-size: 10px; font-weight: 600; letter-spacing: .06em; }
+@media (max-width: 700px) {
+  .prototype-strip { display: block; padding: 5px 12px; line-height: 1.5; }
+  .prototype-strip > span:last-child { display: none; }
+}
+.portfolio-status { display: inline-flex; align-items: center; gap: 6px; padding: 5px 8px; border: 1px solid color-mix(in srgb, var(--signal-cyan) 22%, transparent); border-radius: 5px; background: var(--cyan-soft); color: var(--signal-cyan); font-size: 11px; }
+.positioning-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 15px; }
+.positioning-tags span { padding: 5px 8px; border: 1px solid var(--border); border-radius: 5px; background: var(--white-03); color: var(--text-secondary); font-size: 11px; }
+.positioning-tags b { margin-right: 4px; color: var(--brand-blue-bright); font-weight: 600; }
+.operations-actions { margin-top: 12px; padding: 11px; border: 1px solid color-mix(in srgb, var(--alert-amber) 18%, transparent); border-radius: 7px; background: var(--amber-soft); }
+.operations-actions .filter-label { margin-bottom: 7px; color: var(--alert-amber); }
+.operations-actions ul { display: flex; flex-direction: column; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.operations-actions li { display: flex; gap: 6px; color: var(--text-secondary); font-size: 12px; line-height: 1.55; }
+.operations-actions li::before { content: "→"; color: var(--alert-amber); flex: 0 0 auto; }
+.project-status-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 9px; margin-top: 18px; }
+.project-status-grid article { padding: 14px; border: 1px solid var(--border); border-radius: 8px; background: var(--white-03); }
+.project-status-grid ul { display: flex; flex-direction: column; gap: 7px; margin: 12px 0 0; padding: 0; list-style: none; }
+.project-status-grid li { display: flex; gap: 6px; color: var(--text-secondary); font-size: 12px; line-height: 1.55; }
+.project-status-grid li::before { content: "·"; color: var(--brand-blue-bright); }
+.my-work-note { margin-top: 13px; padding: 14px; border: 1px solid color-mix(in srgb, var(--brand-blue) 20%, transparent); border-radius: 8px; background: var(--blue-soft); }
+.my-work-note > div:first-child { display: flex; align-items: center; gap: 7px; color: var(--brand-blue-bright); }
+.my-work-note p { margin: 9px 0 0; color: var(--text-secondary); font-size: 13px; line-height: 1.7; }
+.my-work-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px; }
+.my-work-tags span { padding: 3px 7px; border: 1px solid color-mix(in srgb, var(--brand-blue) 20%, transparent); border-radius: 4px; color: var(--brand-blue-bright); font-size: 11px; }
+@media (max-width: 900px) { .project-status-grid { grid-template-columns: 1fr; } }
+
+
+html { scroll-padding-top: 100px; }
+.method-section { scroll-margin-top: 104px; }
 

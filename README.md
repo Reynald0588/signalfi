@@ -1,8 +1,9 @@
-# SignalFi · Web3 Intelligence Terminal
+# SignalFi · Web3 Operations & Prediction Research Workbench
 
-面向 Web3 舆情监测与预测市场研究的作品集产品，用于从公开信息中发现热点、判断风险，并形成可追溯的情报简报。
+面向 Web3 用户运营与预测市场研究的求职作品集原型，用于展示热点发现、风险判断、运营行动和预测市场候选研究的工作流。
 
-当前完成 **Stage 1：产品结构、视觉系统与前端框架**。
+当前版本：**v2.0-job-demo（求职演示专用版）**。
+当前数据为公开来源示例快照，采用手动更新；项目不是实时生产系统。
 
 ![SignalFi Overview](preview.png)
 
@@ -11,9 +12,9 @@
 | 页面 | 路径 | 核心任务 |
 |---|---|---|
 | Overview | `index.html` | 快速掌握当前热点、风险和预测研究机会 |
-| Signals | `signals.html` | 舆情监测工作台：搜索、筛选、排序并调查事件 |
+| Signals | `signals.html` | 热点与风险工作台：搜索、筛选、排序并调查事件 |
 | Prediction Research | `prediction.html` | 预测市场工作台：判断热点是否适合转化为可验证的市场问题 |
-| Product Guide | `methodology.html` | 产品说明书：数据来源、评分规则、AI 边界和系统限制 |
+| Product Guide | `methodology.html` | 产品说明书：项目状态、我的工作、数据来源、评分规则和系统限制 |
 
 ![Signals](preview-signals.png)
 ![Prediction Research](preview-prediction.png)
@@ -69,7 +70,7 @@ prediction.html            Prediction Research
 methodology.html           Methodology
 assets/tokens.css          品牌、表面、文字与状态 Token
 assets/styles.css          基础组件和共享样式
-assets/stage1.css          Stage 1 页面布局与响应式
+assets/stage1.css          v2.0 页面布局与响应式
 assets/core.js             图标、Header、数据加载、语言切换、日报
 assets/overview.js         Overview 渲染与筛选
 assets/signals.js          Signals 搜索、筛选、详情
@@ -123,7 +124,7 @@ data/translation_cache.json 已翻译标题、摘要与市场问题缓存
 - 下载 PDF（Canvas 渲染，不依赖打印对话框）
 - 移动端导航、2 × 2 指标卡和全屏详情抽屉
 
-## Stage 1 浏览器验收
+## v2.0 浏览器验收
 
 已检查：
 
@@ -140,9 +141,13 @@ data/translation_cache.json 已翻译标题、摘要与市场问题缓存
 - Markdown 文件可以成功导出
 - 无阻塞性 JavaScript 异常
 
+## 演示视频方案
+
+完整分镜、讲解文案和录制检查清单见：`docs/video-demo-plan.md`。
+
 ## 当前边界
 
-- Stage 1 使用当前生成的数据快照，不声称秒级实时
+- 当前演示版使用公开来源示例快照，不声称秒级实时
 - 跨运行的事件历史去重仍需持久化事件状态
 - X / Telegram 全量数据尚未接入
 - 预测研究候选会明确区分 `Market Linked` 与 `Research Candidate`
@@ -181,7 +186,4 @@ AI_MODEL=deepseek-chat
 4. 手动运行一次 workflow
 
 工作流会复制全部 HTML 文件、静态资源和最新数据到部署产物。
-
-
-
 
