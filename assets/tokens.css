@@ -1,0 +1,69 @@
+:root {
+  /* Surfaces */
+  --app-bg: #080B14;
+  --panel-base: #0D1220;
+  --panel-elevated: #121A2B;
+  --hover-surface: #19243A;
+  --border: #26334A;
+
+  /* Typography */
+  --text-primary: #F1F5F9;
+  --text-secondary: #A0AEC0;
+  --text-muted: #718096;
+
+  /* Brand and semantic colors */
+  --brand-blue: #5B8CFF;
+  --brand-blue-bright: #82A9FF;
+  --signal-cyan: #42D9F5;
+  --signal-teal: #35D0B0;
+  --research-violet: #A78BFA;
+  --risk-red: #FF647C;
+  --alert-amber: #F6BD60;
+
+  /* Alpha tokens */
+  --blue-soft: rgba(91, 140, 255, 0.12);
+  --cyan-soft: rgba(66, 217, 245, 0.12);
+  --teal-soft: rgba(53, 208, 176, 0.11);
+  --violet-soft: rgba(167, 139, 250, 0.11);
+  --risk-soft: rgba(255, 100, 124, 0.11);
+  --amber-soft: rgba(246, 189, 96, 0.1);
+  --white-03: rgba(241, 245, 249, 0.03);
+  --white-05: rgba(241, 245, 249, 0.05);
+  --white-07: rgba(241, 245, 249, 0.07);
+  --grid-line: rgba(160, 174, 192, 0.045);
+  --backdrop: rgba(4, 7, 13, 0.8);
+  --shadow: 0 24px 70px rgba(0, 0, 0, 0.34);
+
+  /* Layout */
+  --radius: 16px;
+  --radius-sm: 12px;
+  --radius-control: 8px;
+  --panel-padding: 22px;
+  --icon-nav: 16px;
+  --icon-card: 20px;
+  --icon-list: 16px;
+  --icon-risk: 14px;
+
+  /* Compatibility aliases used by existing components */
+  --bg: var(--app-bg);
+  --bg-soft: var(--panel-base);
+  --panel: color-mix(in srgb, var(--panel-base) 92%, transparent);
+  --panel-solid: var(--panel-base);
+  --panel-hover: color-mix(in srgb, var(--hover-surface) 94%, transparent);
+  --line: var(--border);
+  --line-strong: color-mix(in srgb, var(--border) 72%, white 9%);
+  --text: var(--text-primary);
+  --muted: var(--text-secondary);
+  --muted-2: var(--text-muted);
+  --mint: var(--signal-teal);
+  --mint-soft: var(--teal-soft);
+  --blue: var(--brand-blue);
+  --amber: var(--alert-amber);
+  --danger: var(--risk-red);
+  --danger-soft: var(--risk-soft);
+  --cyan: var(--signal-cyan);
+  --violet: var(--research-violet);
+  --font: "Inter", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+}
+
+

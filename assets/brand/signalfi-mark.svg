@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SignalFi radar signal mark">
+  <g fill="none" stroke-linecap="round">
+    <circle cx="32" cy="32" r="11" pathLength="100" stroke="#5B8CFF" stroke-width="3" stroke-dasharray="72 28" transform="rotate(-105 32 32)"/>
+    <circle cx="32" cy="32" r="20" pathLength="100" stroke="#5B8CFF" stroke-width="2.6" stroke-dasharray="72 28" stroke-opacity=".72" transform="rotate(-105 32 32)"/>
+    <circle cx="32" cy="32" r="28" pathLength="100" stroke="#82A9FF" stroke-width="2.2" stroke-dasharray="72 28" stroke-opacity=".45" transform="rotate(-105 32 32)"/>
+  </g>
+  <circle cx="32" cy="32" r="4.2" fill="#42D9F5"/>
+  <circle cx="48.5" cy="18.5" r="3.6" fill="#42D9F5"/>
+</svg>

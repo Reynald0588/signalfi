@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1060" viewBox="0 0 1600 1060">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05080d"/><stop offset=".55" stop-color="#09111b"/><stop offset="1" stop-color="#071319"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#79a9ff"/><stop offset="1" stop-color="#78f2bf"/></linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#78f2bf" stop-opacity=".24"/><stop offset="1" stop-color="#78f2bf" stop-opacity="0"/></linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" fill="none" stroke="#8aa0bd" stroke-opacity=".045" stroke-width="1"/></pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="1060" fill="url(#bg)"/><rect width="1600" height="1060" fill="url(#grid)"/>
+  <circle cx="1430" cy="80" r="350" fill="#2bbd8a" opacity=".045"/>
+  <g font-family="Segoe UI, Microsoft YaHei, sans-serif">
+    <text x="48" y="42" fill="#78f2bf" font-size="11" font-weight="700" letter-spacing="3">SIGNALFI · STAGE 1 HOMEPAGE DESIGN</text>
+    <text x="48" y="78" fill="#edf4fb" font-size="30" font-weight="700" letter-spacing="-1">横向导航 + 四指标 + 20 / 50 / 30 工作台</text>
+    <text x="48" y="103" fill="#7f8ea3" font-size="12">深色专业终端风格；首屏强调“正在发生什么、什么在升温、什么值得调查”。</text>
+    <rect x="1348" y="28" width="204" height="30" rx="15" fill="#78f2bf" fill-opacity=".1" stroke="#78f2bf" stroke-opacity=".25"/>
+    <circle cx="1368" cy="43" r="4" fill="#78f2bf" filter="url(#glow)"/>
+    <text x="1382" y="47" fill="#a8f6d7" font-size="10" letter-spacing="1">DESIGN DIRECTION v2</text>
+    <rect x="48" y="124" width="1504" height="790" rx="18" fill="#080d14" stroke="#263345"/>
+    <rect x="48" y="124" width="1504" height="58" rx="18" fill="#0b121c"/>
+    <path d="M48 182h1504" stroke="#1d2939"/>
+    <rect x="72" y="145" width="28" height="28" rx="8" fill="#78f2bf" fill-opacity=".11" stroke="#78f2bf" stroke-opacity=".45"/>
+    <path d="M79 162c5-1 6-9 11-9s4 5 9 3" fill="none" stroke="#78f2bf" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="92" cy="157" r="2.4" fill="#78f2bf" filter="url(#glow)"/>
+    <text x="111" y="156" fill="#eef4fa" font-size="14" font-weight="700" letter-spacing="1.2">SignalFi</text>
+    <text x="111" y="169" fill="#65748a" font-size="7" letter-spacing=".6">WEB3 INTELLIGENCE TERMINAL</text>
+    <text x="374" y="158" fill="#78f2bf" font-size="10" font-weight="600">Overview</text>
+    <rect x="365" y="170" width="48" height="2" rx="1" fill="#78f2bf"/>
+    <text x="452" y="158" fill="#8694a8" font-size="10">Signals</text>
+    <text x="528" y="158" fill="#8694a8" font-size="10">Prediction Research</text>
+    <text x="660" y="158" fill="#8694a8" font-size="10">Methodology</text>
+    <rect x="1184" y="142" width="73" height="24" rx="12" fill="#ffc06a" fill-opacity=".08" stroke="#ffc06a" stroke-opacity=".18"/>
+    <circle cx="1198" cy="154" r="3" fill="#ffc06a"/>
+    <text x="1206" y="157" fill="#e7c38e" font-size="7" letter-spacing=".6">DEMO DATA</text>
+    <text x="1273" y="157" fill="#69788d" font-size="7">LAST SYNC</text>
+    <text x="1330" y="157" fill="#aab8c9" font-size="7">13:52 CST</text>
+    <rect x="1424" y="142" width="57" height="24" rx="6" fill="#111b29" stroke="#263548"/>
+    <text x="1436" y="157" fill="#9babbd" font-size="7">中 / EN</text>
+    <circle cx="1512" cy="154" r="2.5" fill="#78f2bf"/>
+    <text x="72" y="217" fill="#e8eff8" font-size="22" font-weight="700" letter-spacing="-.5">Intelligence Overview</text>
+    <text x="72" y="237" fill="#6f7e93" font-size="8">A concise view of what is rising, what is risky, and what deserves deeper research.</text>
+    <text x="1098" y="218" fill="#65748a" font-size="7" letter-spacing=".5">SOURCE HEALTH</text>
+    <text x="1098" y="235" fill="#b5c1d1" font-size="9">8 / 8 connectors healthy</text>
+    <rect x="1295" y="201" width="111" height="30" rx="7" fill="#78f2bf" fill-opacity=".1" stroke="#78f2bf" stroke-opacity=".2"/>
+    <text x="1315" y="220" fill="#b9f7df" font-size="8">Open Daily Brief →</text>
+    <rect x="72" y="258" width="260" height="98" rx="11" fill="#0d1622" stroke="#223145"/>
+    <text x="88" y="278" fill="#6f7e93" font-size="7" letter-spacing=".6">ACTIVE SIGNALS</text>
+    <text x="88" y="314" fill="#edf3fa" font-size="29" font-weight="700">128</text>
+    <text x="88" y="334" fill="#65748a" font-size="7">Observed across connected sources</text>
+    <path d="M228 335c13-13 18 3 29-10s16-5 29-18 17 4 30-10" fill="none" stroke="#78f2bf" stroke-width="1.5" opacity=".7"/>
+    <rect x="344" y="258" width="260" height="98" rx="11" fill="#0d1622" stroke="#223145"/>
+    <text x="360" y="278" fill="#6f7e93" font-size="7" letter-spacing=".6">RISING NOW</text>
+    <text x="360" y="314" fill="#ffc06a" font-size="29" font-weight="700">06</text>
+    <text x="360" y="334" fill="#65748a" font-size="7">+18% observed velocity vs previous window</text>
+    <path d="M500 335c11-9 17 2 25-8s15 4 24-10 15-4 25-15" fill="none" stroke="#ffc06a" stroke-width="1.5" opacity=".8"/>
+    <rect x="616" y="258" width="260" height="98" rx="11" fill="#0d1622" stroke="#223145"/>
+    <text x="632" y="278" fill="#6f7e93" font-size="7" letter-spacing=".6">RISK WATCH</text>
+    <text x="632" y="314" fill="#ff7785" font-size="29" font-weight="700">11</text>
+    <text x="632" y="334" fill="#65748a" font-size="7">3 high-risk · 2 require source verification</text>
+    <rect x="632" y="344" width="64" height="4" rx="2" fill="#ff7785" fill-opacity=".25"/><rect x="632" y="344" width="25" height="4" rx="2" fill="#ff7785"/>
+    <rect x="702" y="344" width="64" height="4" rx="2" fill="#ffc06a" fill-opacity=".2"/><rect x="702" y="344" width="41" height="4" rx="2" fill="#ffc06a"/>
+    <rect x="772" y="344" width="64" height="4" rx="2" fill="#79a9ff" fill-opacity=".18"/><rect x="772" y="344" width="32" height="4" rx="2" fill="#79a9ff"/>
+    <rect x="888" y="258" width="260" height="98" rx="11" fill="#0d1622" stroke="#223145"/>
+    <text x="904" y="278" fill="#6f7e93" font-size="7" letter-spacing=".6">PREDICTION RESEARCH</text>
+    <text x="904" y="314" fill="#78f2bf" font-size="29" font-weight="700">04</text>
+    <text x="904" y="334" fill="#65748a" font-size="7">2 market linked · 2 research candidates</text>
+    <circle cx="1088" cy="335" r="13" fill="none" stroke="#78f2bf" stroke-opacity=".18" stroke-width="4"/>
+    <circle cx="1088" cy="335" r="13" fill="none" stroke="#78f2bf" stroke-width="4" stroke-dasharray="42 82" transform="rotate(-90 1088 335)"/>
+    <rect x="72" y="374" width="252" height="510" rx="11" fill="#0b131e" stroke="#202e40"/>
+    <text x="88" y="397" fill="#8797ad" font-size="8" letter-spacing=".6">SIGNAL FILTERS</text>
+    <text x="88" y="420" fill="#65748a" font-size="7">QUICK VIEWS</text>
+    <rect x="84" y="430" width="228" height="28" rx="6" fill="#78f2bf" fill-opacity=".1"/>
+    <text x="96" y="448" fill="#78f2bf" font-size="8">All Signals</text><text x="286" y="448" fill="#78f2bf" font-size="8">128</text>
+    <text x="96" y="478" fill="#a2afc1" font-size="8">New</text><text x="286" y="478" fill="#65748a" font-size="8">23</text>
+    <text x="96" y="506" fill="#a2afc1" font-size="8">Rising</text><text x="286" y="506" fill="#ffc06a" font-size="8">06</text>
+    <text x="96" y="534" fill="#a2afc1" font-size="8">Risk Watch</text><text x="286" y="534" fill="#ff7785" font-size="8">11</text>
+    <text x="96" y="562" fill="#a2afc1" font-size="8">Unverified</text><text x="286" y="562" fill="#65748a" font-size="8">07</text>
+    <path d="M88 586h220" stroke="#202e40"/>
+    <text x="88" y="610" fill="#65748a" font-size="7">RISK LEVEL</text>
+    <rect x="88" y="622" width="54" height="22" rx="5" fill="#ff7785" fill-opacity=".08" stroke="#ff7785" stroke-opacity=".2"/><text x="100" y="637" fill="#ff9fa8" font-size="7">High 03</text>
+    <rect x="149" y="622" width="66" height="22" rx="5" fill="#ffc06a" fill-opacity=".07" stroke="#ffc06a" stroke-opacity=".18"/><text x="161" y="637" fill="#e8c38d" font-size="7">Medium 08</text>
+    <rect x="222" y="622" width="59" height="22" rx="5" fill="#79a9ff" fill-opacity=".07" stroke="#79a9ff" stroke-opacity=".16"/><text x="234" y="637" fill="#aac8f8" font-size="7">Low 17</text>
+    <text x="88" y="674" fill="#65748a" font-size="7">CATEGORIES</text>
+    <text x="88" y="697" fill="#9baabc" font-size="7">Regulation</text><text x="286" y="697" fill="#65748a" font-size="7">34</text>
+    <text x="88" y="719" fill="#9baabc" font-size="7">Security</text><text x="286" y="719" fill="#65748a" font-size="7">21</text>
+    <text x="88" y="741" fill="#9baabc" font-size="7">Markets</text><text x="286" y="741" fill="#65748a" font-size="7">28</text>
+    <text x="88" y="763" fill="#9baabc" font-size="7">Community</text><text x="286" y="763" fill="#65748a" font-size="7">19</text>
+    <text x="88" y="785" fill="#9baabc" font-size="7">Technology</text><text x="286" y="785" fill="#65748a" font-size="7">16</text>
+    <path d="M88 807h220" stroke="#202e40"/>
+    <text x="88" y="830" fill="#65748a" font-size="7">ACTIVE SOURCES</text>
+    <rect x="84" y="829" width="228" height="58" rx="7" fill="#78f2bf" fill-opacity=".025" stroke="#78f2bf" stroke-opacity=".1"/>
+    <circle cx="98" cy="849" r="3" fill="#78f2bf"/><text x="108" y="852" fill="#8fa0b5" font-size="7">6 RSS feeds</text>
+    <circle cx="98" cy="868" r="3" fill="#78f2bf"/><text x="108" y="871" fill="#8fa0b5" font-size="7">2 public APIs</text>
+
+    <rect x="336" y="374" width="692" height="232" rx="11" fill="#0d1622" stroke="#223145"/>
+    <text x="354" y="399" fill="#8797ad" font-size="8" letter-spacing=".6">OBSERVED SIGNAL PULSE · 24H</text>
+    <text x="827" y="399" fill="#65748a" font-size="7">Last successful sync 13:52</text>
+    <text x="354" y="426" fill="#6b7a90" font-size="6">24h ago</text><text x="670" y="426" fill="#6b7a90" font-size="6">12h ago</text><text x="974" y="426" fill="#6b7a90" font-size="6">now</text>
+    <path d="M354 568 C404 542 422 555 464 516 S522 536 566 493 S627 510 669 470 S730 489 774 446 S837 466 882 426 S939 452 1002 413" fill="none" stroke="url(#accent)" stroke-width="2.2"/>
+    <path d="M354 568 C404 542 422 555 464 516 S522 536 566 493 S627 510 669 470 S730 489 774 446 S837 466 882 426 S939 452 1002 413 L1002 580 L354 580 Z" fill="url(#area)"/>
+    <path d="M354 520h648M354 470h648M354 420h648" stroke="#8aa0bd" stroke-opacity=".07" stroke-dasharray="3 7"/>
+    <circle cx="1002" cy="413" r="4" fill="#78f2bf" filter="url(#glow)"/>
+    <text x="354" y="448" fill="#78f2bf" font-size="7">● Observed activity</text>
+    <text x="462" y="448" fill="#65748a" font-size="7">Measurement window: rolling 24h · observed sources only</text>
+
+    <rect x="336" y="620" width="692" height="264" rx="11" fill="#0d1622" stroke="#223145"/>
+    <text x="354" y="646" fill="#e5edf6" font-size="11" font-weight="600">Active Signal Stream</text>
+    <text x="354" y="662" fill="#65748a" font-size="7">Prioritized by observed velocity, risk and source diversity</text>
+    <rect x="850" y="635" width="80" height="22" rx="5" fill="#111c2a" stroke="#263548"/><text x="866" y="650" fill="#8c9caf" font-size="7">Heat ↓</text>
+    <rect x="939" y="635" width="71" height="22" rx="5" fill="#111c2a" stroke="#263548"/><text x="951" y="650" fill="#8c9caf" font-size="7">Filter</text>
+
+    <rect x="348" y="679" width="668" height="42" rx="7" fill="#111c2a" stroke="#233247"/>
+    <rect x="360" y="691" width="42" height="18" rx="4" fill="#ff7785" fill-opacity=".1"/><text x="368" y="703" fill="#ff9fa8" font-size="6">RISK</text>
+    <text x="414" y="698" fill="#e0e8f2" font-size="8" font-weight="600">Stablecoin policy comments prompt fresh compliance debate</text>
+    <text x="414" y="711" fill="#65748a" font-size="6">Regulation · 6 sources · first seen 3h ago · updated 18m ago</text>
+    <text x="935" y="700" fill="#ffc06a" font-size="8">+42%</text><text x="936" y="711" fill="#65748a" font-size="6">heat ↑</text>
+
+    <rect x="348" y="729" width="668" height="42" rx="7" fill="#111c2a" stroke="#233247"/>
+    <rect x="360" y="741" width="42" height="18" rx="4" fill="#ffc06a" fill-opacity=".09"/><text x="367" y="753" fill="#e8c38d" font-size="6">RISING</text>
+    <text x="414" y="748" fill="#e0e8f2" font-size="8" font-weight="600">Bridge audit follow-up draws renewed community attention</text>
+    <text x="414" y="761" fill="#65748a" font-size="6">Security · 2 sources · first seen 5h ago · updated 41m ago</text>
+    <text x="935" y="750" fill="#ffc06a" font-size="8">+18%</text><text x="936" y="761" fill="#65748a" font-size="6">heat ↑</text>
+
+    <rect x="348" y="779" width="668" height="42" rx="7" fill="#111c2a" stroke="#233247"/>
+    <rect x="360" y="791" width="42" height="18" rx="4" fill="#78f2bf" fill-opacity=".08"/><text x="366" y="803" fill="#a9f2d5" font-size="6">MARKET</text>
+    <text x="414" y="798" fill="#e0e8f2" font-size="8" font-weight="600">Bitcoin price threshold becomes a prediction research candidate</text>
+    <text x="414" y="811" fill="#65748a" font-size="6">Markets · 3 sources · market linked · updated 1h ago</text>
+    <text x="935" y="800" fill="#78f2bf" font-size="8">64%</text><text x="936" y="811" fill="#65748a" font-size="6">YES</text>
+
+    <rect x="348" y="829" width="668" height="42" rx="7" fill="#111c2a" stroke="#233247"/>
+    <rect x="360" y="841" width="42" height="18" rx="4" fill="#79a9ff" fill-opacity=".08"/><text x="367" y="853" fill="#aac8f8" font-size="6">WATCH</text>
+    <text x="414" y="848" fill="#e0e8f2" font-size="8" font-weight="600">AI agent payments narrative gains developer attention</text>
+    <text x="414" y="861" fill="#65748a" font-size="6">Technology · 4 sources · first seen 7h ago · updated 2h ago</text>
+    <text x="935" y="850" fill="#79a9ff" font-size="8">+9%</text><text x="936" y="861" fill="#65748a" font-size="6">heat ↑</text>
+    <rect x="1044" y="374" width="484" height="152" rx="11" fill="#0d1622" stroke="#223145"/>
+    <text x="1062" y="398" fill="#8797ad" font-size="8" letter-spacing=".6">PRIORITY SIGNALS</text>
+    <text x="1464" y="398" fill="#65748a" font-size="7">3 alerts</text>
+    <rect x="1062" y="412" width="448" height="40" rx="7" fill="#ff7785" fill-opacity=".045" stroke="#ff7785" stroke-opacity=".12"/>
+    <circle cx="1075" cy="432" r="3" fill="#ff7785"/><text x="1086" y="429" fill="#e2e9f2" font-size="8">Regulatory pressure rises across stablecoin markets</text>
+    <text x="1086" y="441" fill="#8f6e75" font-size="6">Confirmed · Rises in 2 independent sources · Risk 78</text>
+    <rect x="1351" y="422" width="44" height="18" rx="4" fill="#ff7785" fill-opacity=".1"/><text x="1363" y="434" fill="#ff9fa8" font-size="6">HIGH</text>
+    <rect x="1401" y="422" width="96" height="18" rx="4" fill="#111b28"/><text x="1415" y="434" fill="#9caabc" font-size="6">Review sources →</text>
+    <rect x="1062" y="459" width="448" height="40" rx="7" fill="#ffc06a" fill-opacity=".035" stroke="#ffc06a" stroke-opacity=".1"/>
+    <circle cx="1075" cy="479" r="3" fill="#ffc06a"/><text x="1086" y="476" fill="#e2e9f2" font-size="8">Bridge audit follow-up remains unverified</text>
+    <text x="1086" y="488" fill="#8a7b68" font-size="6">Unverified · Monitoring · Risk 67</text>
+    <rect x="1351" y="469" width="44" height="18" rx="4" fill="#ffc06a" fill-opacity=".09"/><text x="1362" y="481" fill="#e8c38d" font-size="6">WATCH</text>
+
+    <rect x="1044" y="540" width="484" height="170" rx="11" fill="#0d1622" stroke="#223145"/>
+    <text x="1062" y="564" fill="#8797ad" font-size="8" letter-spacing=".6">NARRATIVE HEAT</text>
+    <text x="1464" y="564" fill="#65748a" font-size="7">Observed share</text>
+    <text x="1062" y="587" fill="#9baabc" font-size="7">Regulation</text><text x="1464" y="587" fill="#65748a" font-size="7">31%</text>
+    <rect x="1062" y="593" width="430" height="5" rx="3" fill="#243247"/><rect x="1062" y="593" width="133" height="5" rx="3" fill="#ff7785"/>
+    <text x="1062" y="618" fill="#9baabc" font-size="7">Security</text><text x="1464" y="618" fill="#65748a" font-size="7">24%</text>
+    <rect x="1062" y="624" width="430" height="5" rx="3" fill="#243247"/><rect x="1062" y="624" width="103" height="5" rx="3" fill="#ffc06a"/>
+    <text x="1062" y="649" fill="#9baabc" font-size="7">Markets</text><text x="1464" y="649" fill="#65748a" font-size="7">21%</text>
+    <rect x="1062" y="655" width="430" height="5" rx="3" fill="#243247"/><rect x="1062" y="655" width="90" height="5" rx="3" fill="#78f2bf"/>
+    <text x="1062" y="680" fill="#9baabc" font-size="7">Community</text><text x="1464" y="680" fill="#65748a" font-size="7">14%</text>
+    <rect x="1062" y="686" width="430" height="5" rx="3" fill="#243247"/><rect x="1062" y="686" width="60" height="5" rx="3" fill="#79a9ff"/>
+
+    <rect x="1044" y="724" width="484" height="160" rx="11" fill="#0d1622" stroke="#223145"/>
+    <text x="1062" y="748" fill="#8797ad" font-size="8" letter-spacing=".6">PREDICTION WATCH</text>
+    <text x="1464" y="748" fill="#65748a" font-size="7">Research candidates</text>
+    <text x="1062" y="773" fill="#e0e8f2" font-size="8">Will Bitcoin dip below $70,000 by Dec 31?</text>
+    <text x="1062" y="786" fill="#65748a" font-size="6">Market Linked · Polymarket · Last update 13:44</text>
+    <rect x="1408" y="761" width="48" height="20" rx="5" fill="#78f2bf" fill-opacity=".08"/><text x="1422" y="774" fill="#a9f2d5" font-size="7">64%</text>
+    <rect x="1062" y="792" width="430" height="3" rx="2" fill="#243247"/><rect x="1062" y="792" width="275" height="3" rx="2" fill="#78f2bf"/>
+    <text x="1062" y="823" fill="#e0e8f2" font-size="8">Will the next protocol upgrade launch before Q1?</text>
+    <text x="1062" y="836" fill="#65748a" font-size="6">Research Candidate · Resolution criteria pending</text>
+    <rect x="1408" y="811" width="65" height="20" rx="5" fill="#ffc06a" fill-opacity=".08"/><text x="1418" y="824" fill="#e8c38d" font-size="6">RESEARCH</text>
+    <text x="1062" y="866" fill="#78f2bf" font-size="7">Open prediction research →</text>
+
+    <path d="M72 897h1456" stroke="#202e40"/>
+    <text x="72" y="918" fill="#5f6e83" font-size="6">DATA SOURCES: CoinDesk · Cointelegraph · Decrypt · The Block · Bitcoin Magazine · CryptoSlate · CoinGecko · Polymarket</text>
+    <text x="1262" y="918" fill="#5f6e83" font-size="6">Scheduled update · Demo snapshot · Not financial advice</text>
+
+    <text x="72" y="946" fill="#65748a" font-size="9">补：顶部导航建议 60px；第二行标题区 70–80px；指标卡区约 100px。</text>
+    <text x="72" y="968" fill="#65748a" font-size="9">20 / 50 / 30 三栏仅在 ≥1280px 保持；下方筛选区可折叠，右侧面板在移动端顺序堆叠。</text>
+    <text x="72" y="990" fill="#78f2bf" font-size="9">视觉原则：一张主趋势图作为视觉锚点，其他图表降低对比度；亮色只用于 LIVE、升温、风险和主按钮。</text>
+    <text x="72" y="1012" fill="#65748a" font-size="9">所有数字均需带来源说明或数据范围，Demo 状态固定显示，不营造虚假秒级实时感。</text>
+  </g>
+</svg>

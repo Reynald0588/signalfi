@@ -1,0 +1,1059 @@
+{
+  "version": "0.1.0",
+  "generated_at": "2026-10-25T12:13:35.257676Z",
+  "mode": "live",
+  "notice": "数据来自公开 RSS 与 API，事件聚类、热度与风险评分由规则引擎生成。",
+  "events": [
+    {
+      "id": "587fbf3f893f",
+      "title": "Netanyahu floats use of blockchain as solution to potential financial sanctions",
+      "summary": "Ahead of elections, Prime Minister Benjamin Netanyahu said Israel could turn to blockchain and crypto to skirt potential international sanctions, to the dismay of opponents and the country’s central banker.",
+      "category": "技术",
+      "sentiment": 29,
+      "risk": 56,
+      "heat": 66,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "技术",
+        "升级",
+        "开发者",
+        "基础设施",
+        "SOL"
+      ],
+      "entities": [
+        "SOL"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/netanyahu-floats-use-of-blockchain-as-solution-to-potential-financial-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published_at": "2026-10-25T11:42:00Z"
+        }
+      ],
+      "published_at": "2026-10-25T11:42:00Z",
+      "status": "new",
+      "analysis": "该事件被归类为「技术」，当前热度 66、风险 56。主要风险信号为：ban, sanction。建议结合后续来源变化持续观察。",
+      "risk_reason": "ban, sanction",
+      "is_demo": false
+    },
+    {
+      "id": "9aafe294883b",
+      "title": "A 20-month Polkadot wallet breach reveals the dark side of faster crypto withdrawals",
+      "summary": "Polkadot’s earlier reduction in nominator exit times leaves less time to coordinate help before exposed funds become withdrawable. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "category": "安全",
+      "sentiment": 36,
+      "risk": 54,
+      "heat": 64,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "安全",
+        "漏洞",
+        "黑客",
+        "审计"
+      ],
+      "entities": [],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "CryptoSlate",
+          "url": "https://cryptoslate.com/a-20-month-polkadot-wallet-breach-reveals-the-dark-side-of-faster-crypto-withdrawals/",
+          "published_at": "2026-10-25T11:20:15Z"
+        }
+      ],
+      "published_at": "2026-10-25T11:20:15Z",
+      "status": "new",
+      "analysis": "该事件被归类为「安全」，当前热度 64、风险 54。主要风险信号为：breach。建议结合后续来源变化持续观察。",
+      "risk_reason": "breach",
+      "is_demo": false
+    },
+    {
+      "id": "70b74ce998ed",
+      "title": "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA",
+      "summary": "The judge found that Milei's promotion of LIBRA did not constitute fraud, despite the attention his support drew to the token.",
+      "category": "安全",
+      "sentiment": 32,
+      "risk": 70,
+      "heat": 50,
+      "risk_level": "high",
+      "risk_label": "高",
+      "tags": [
+        "安全",
+        "漏洞",
+        "黑客",
+        "审计"
+      ],
+      "entities": [],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/24/argentina-drops-criminal-probe-into-president-milei-over-crashed-memecoin-libra",
+          "published_at": "2026-10-24T14:38:47Z"
+        }
+      ],
+      "published_at": "2026-10-24T14:38:47Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「安全」，当前热度 50、风险 70。主要风险信号为：fraud, probe。建议结合后续来源变化持续观察。",
+      "risk_reason": "fraud, probe",
+      "is_demo": false
+    },
+    {
+      "id": "87dbe7c3ca1b",
+      "title": "Kraken wants to be your bank, but who will protect your money?",
+      "summary": "Kraken&#039;s parent company wants a place in your finances long before you buy Bitcoin and long after you sell it. On Oct. 14, Payward agreed to acquire Saldo Finance Oy, the Finnish owner of Lithuania&#039;s Saldo Bank, in a deal expected to close in 2027 if regulators approve it. The purchase would add deposit accounts,… Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "category": "监管",
+      "sentiment": 50,
+      "risk": 47,
+      "heat": 60,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规",
+        "Bitcoin",
+        "Kraken"
+      ],
+      "entities": [
+        "Bitcoin",
+        "Kraken"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "CryptoSlate",
+          "url": "https://cryptoslate.com/kraken-wants-to-be-your-bank-but-who-would-protect-your-money/",
+          "published_at": "2026-10-25T08:00:04Z"
+        }
+      ],
+      "published_at": "2026-10-25T08:00:04Z",
+      "status": "new",
+      "analysis": "该事件被归类为「监管」，当前热度 60、风险 47。主要风险信号为：ban。建议结合后续来源变化持续观察。",
+      "risk_reason": "ban",
+      "is_demo": false
+    },
+    {
+      "id": "2a4da9007e76",
+      "title": "Bitcoin Core Rewrites Its Security Policy for a World Where AI Finds Bugs in One Prompt",
+      "summary": "Developers will now backport fixes and cut releases immediately for flaws flagged as “easily discoverable,” abandoning long embargoes for bugs an attacker can surface with a single AI prompt.",
+      "category": "监管",
+      "sentiment": 25,
+      "risk": 74,
+      "heat": 37,
+      "risk_level": "high",
+      "risk_label": "高",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规",
+        "Bitcoin"
+      ],
+      "entities": [
+        "Bitcoin",
+        "SEC"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/381715/bitcoin-core-security-policy-ai-threats",
+          "published_at": "2026-10-23T17:16:03Z"
+        }
+      ],
+      "published_at": "2026-10-23T17:16:03Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「监管」，当前热度 37、风险 74。主要风险信号为：ban, attack, security。建议结合后续来源变化持续观察。",
+      "risk_reason": "ban, attack, security",
+      "is_demo": false
+    },
+    {
+      "id": "1ecb723910d0",
+      "title": "Circle shareholder sues Trump over UAE crypto deals, citing up to $82 million in potential annual revenue",
+      "summary": "A Circle shareholder sued President Donald Trump, alleging UAE-linked cryptocurrency payments enriched his family and diverted business from USDC. The complaint, filed Oct. 22 in Washington federal court, challenges a $500 million investment in Trump&#039;s World Liberty Financial and a separate $2 billion transaction settled using its USD1 stablecoin. The lawsuit alleges that “No president… Read the full story on CryptoSlate Understand the crypto stories that matter and wha…",
+      "category": "监管",
+      "sentiment": 29,
+      "risk": 64,
+      "heat": 44,
+      "risk_level": "high",
+      "risk_label": "高",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规",
+        "Circle",
+        "USDC"
+      ],
+      "entities": [
+        "Circle",
+        "USDC",
+        "Stablecoin"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "CryptoSlate",
+          "url": "https://cryptoslate.com/circle-shareholder-sues-trump-over-uae-crypto-deals-citing-up-to-82-million-in-potential-annual-revenue/",
+          "published_at": "2026-10-24T15:45:44Z"
+        }
+      ],
+      "published_at": "2026-10-24T15:45:44Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「监管」，当前热度 44、风险 64。主要风险信号为：lawsuit, sue。建议结合后续来源变化持续观察。",
+      "risk_reason": "lawsuit, sue",
+      "is_demo": false
+    },
+    {
+      "id": "2ce2c00b2a1b",
+      "title": "Hong Kong’s Biggest Bank Puts a Stablecoin in 3 Million Wallets",
+      "summary": "HSBC switched on its Hong Kong dollar stablecoin inside PayMe on Friday, testing whether a bank-issued token can become everyday money.",
+      "category": "监管",
+      "sentiment": 29,
+      "risk": 64,
+      "heat": 44,
+      "risk_level": "high",
+      "risk_label": "高",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规",
+        "ETH",
+        "Stablecoin"
+      ],
+      "entities": [
+        "ETH",
+        "Stablecoin"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/381760/hong-kong-bank-hsbc-stablecoin-3-million-wallets",
+          "published_at": "2026-10-24T13:01:02Z"
+        }
+      ],
+      "published_at": "2026-10-24T13:01:02Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「监管」，当前热度 44、风险 64。主要风险信号为：sue, ban。建议结合后续来源变化持续观察。",
+      "risk_reason": "sue, ban",
+      "is_demo": false
+    },
+    {
+      "id": "3c03f21061d8",
+      "title": "Block's new voice AI sounds eerily human, sparking awe and scam fears",
+      "summary": "Reactions split between amazement at how human it sounds and fears it could fuel scams and deception, with CZ eyeing uses in children’s education.",
+      "category": "安全",
+      "sentiment": 29,
+      "risk": 57,
+      "heat": 44,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "安全",
+        "漏洞",
+        "黑客",
+        "审计"
+      ],
+      "entities": [],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/10/24/block-s-new-voice-ai-sounds-eerily-human-sparking-awe-and-scam-fears",
+          "published_at": "2026-10-24T15:21:06Z"
+        }
+      ],
+      "published_at": "2026-10-24T15:21:06Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「安全」，当前热度 44、风险 57。主要风险信号为：scam。建议结合后续来源变化持续观察。",
+      "risk_reason": "scam",
+      "is_demo": false
+    },
+    {
+      "id": "87fd770b29a2",
+      "title": "Initia halts blockchain after exploit reportedly drains over $2.6M",
+      "summary": "The blockchain suspended its layer-1 network and rollups after security researchers identified unauthorized token minting and millions in assets transferred to Ethereum.",
+      "category": "技术",
+      "sentiment": 25,
+      "risk": 66,
+      "heat": 37,
+      "risk_level": "high",
+      "risk_label": "高",
+      "tags": [
+        "技术",
+        "升级",
+        "开发者",
+        "基础设施",
+        "Ethereum",
+        "ETH"
+      ],
+      "entities": [
+        "Ethereum",
+        "ETH",
+        "SEC"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/initia-halts-blockchain-exploit-drained?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published_at": "2026-10-23T18:39:02Z"
+        }
+      ],
+      "published_at": "2026-10-23T18:39:02Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「技术」，当前热度 37、风险 66。主要风险信号为：exploit, drain, security。建议结合后续来源变化持续观察。",
+      "risk_reason": "exploit, drain, security",
+      "is_demo": false
+    },
+    {
+      "id": "d2ac36d2b4ba",
+      "title": "Initia halts network after security incident as attacker reportedly mints tokens",
+      "summary": "Onchain data shows a $2.7 million ether transfer as Initia investigates the scope of a security incident.",
+      "category": "安全",
+      "sentiment": 29,
+      "risk": 64,
+      "heat": 35,
+      "risk_level": "high",
+      "risk_label": "高",
+      "tags": [
+        "安全",
+        "漏洞",
+        "黑客",
+        "审计",
+        "ETH",
+        "SEC"
+      ],
+      "entities": [
+        "ETH",
+        "SEC"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-10-23-initia-halts-network-after-security-incident-attacker-reportedly-mints-tokens-427755",
+          "published_at": "2026-10-23T17:03:56Z"
+        }
+      ],
+      "published_at": "2026-10-23T17:03:56Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「安全」，当前热度 35、风险 64。主要风险信号为：attack, security。建议结合后续来源变化持续观察。",
+      "risk_reason": "attack, security",
+      "is_demo": false
+    },
+    {
+      "id": "fbe25a09f4ef",
+      "title": "Argentine judge clears Milei and 10 others in LIBRA case, finding no ‘criminally relevant deception’",
+      "summary": "The judge's 60-page ruling concluded Argentine President Javier Milei's post promoting the LIBRA token did not, by itself, establish fraud.",
+      "category": "安全",
+      "sentiment": 36,
+      "risk": 54,
+      "heat": 42,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "安全",
+        "漏洞",
+        "黑客",
+        "审计"
+      ],
+      "entities": [],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-24-argentine-judge-clears-milei-and-10-others-in-libra-case-finding-no-criminally-relevant-deception-431606",
+          "published_at": "2026-10-24T16:24:13Z"
+        }
+      ],
+      "published_at": "2026-10-24T16:24:13Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「安全」，当前热度 42、风险 54。主要风险信号为：fraud。建议结合后续来源变化持续观察。",
+      "risk_reason": "fraud",
+      "is_demo": false
+    },
+    {
+      "id": "ff2924234bf7",
+      "title": "Sweden's Government Offices Block ChatGPT and Claude, Keep Microsoft Copilot",
+      "summary": "Sweden's Government Offices will block ChatGPT and Claude on staff computers from Monday, steering civil servants to Microsoft Copilot as the only AI that passed its security review.",
+      "category": "监管",
+      "sentiment": 36,
+      "risk": 54,
+      "heat": 42,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规"
+      ],
+      "entities": [
+        "SEC"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/381763/sweden-government-offices-block-chatgpt-claude",
+          "published_at": "2026-10-24T16:01:03Z"
+        }
+      ],
+      "published_at": "2026-10-24T16:01:03Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「监管」，当前热度 42、风险 54。主要风险信号为：security。建议结合后续来源变化持续观察。",
+      "risk_reason": "security",
+      "is_demo": false
+    },
+    {
+      "id": "ae84e4a9253a",
+      "title": "Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker",
+      "summary": "Some of the world's biggest companies objected to being listed on the first tokenized securities trading venue under the SEC's innovation exemption. But the early pushback may say more about issuer caution than about rejection of tokenization itself.",
+      "category": "监管",
+      "sentiment": 36,
+      "risk": 54,
+      "heat": 42,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规"
+      ],
+      "entities": [
+        "SEC"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/23/why-mcdonalds-microsoft-and-google-saying-no-to-tokenized-stocks-isn-t-a-dealbreaker",
+          "published_at": "2026-10-24T15:00:00Z"
+        }
+      ],
+      "published_at": "2026-10-24T15:00:00Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「监管」，当前热度 42、风险 54。主要风险信号为：sue。建议结合后续来源变化持续观察。",
+      "risk_reason": "sue",
+      "is_demo": false
+    },
+    {
+      "id": "3f513353b4c0",
+      "title": "US senator probes Tether after reported deal with ex-Trump crypto adviser",
+      "summary": "The Democratic ranking member of the Senate Permanent Subcommittee on Investigations asked Paolo Ardoino for records related to a reported deal between Tether and Nxum.",
+      "category": "监管",
+      "sentiment": 42,
+      "risk": 57,
+      "heat": 37,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规",
+        "ETH",
+        "Tether"
+      ],
+      "entities": [
+        "ETH",
+        "Tether"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/us-senator-probe-bo-hines-trump-crypto-adviser-tether-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published_at": "2026-10-23T17:42:12Z"
+        }
+      ],
+      "published_at": "2026-10-23T17:42:12Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「监管」，当前热度 37、风险 57。主要风险信号为：investigation, probe。建议结合后续来源变化持续观察。",
+      "risk_reason": "investigation, probe",
+      "is_demo": false
+    },
+    {
+      "id": "5258685b4e58",
+      "title": "Was crypto self-custody ever designed for beginners?",
+      "summary": "Recent hardware wallet security incidents have renewed debate over whether self-custody is suitable for beginners, as multisig and seedless designs carry their own risks.",
+      "category": "监管",
+      "sentiment": 29,
+      "risk": 57,
+      "heat": 35,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规",
+        "ETH"
+      ],
+      "entities": [
+        "ETH",
+        "SEC"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/self-custody-crypto-beginners-mainstream-adoption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published_at": "2026-10-23T11:47:47Z"
+        }
+      ],
+      "published_at": "2026-10-23T11:47:47Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「监管」，当前热度 35、风险 57。主要风险信号为：security。建议结合后续来源变化持续观察。",
+      "risk_reason": "security",
+      "is_demo": false
+    },
+    {
+      "id": "baddd66e39ca",
+      "title": "Kraken drops Monero spending questions but keeps a $1,500 rolling 30-day withdrawal cap for individuals",
+      "summary": "Crypto exchange Kraken has withdrawn intrusive compliance demands sent to Monero customers after its co-CEO admitted the requests were unjustified. On Oct. 24, Arjun Sethi said that customers who purchased and withdrew Monero (XMR) had received emails requesting information about their employers, sources of funds, and intended use of the cryptocurrency. He acknowledged that no… Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch nex…",
+      "category": "监管",
+      "sentiment": 36,
+      "risk": 47,
+      "heat": 42,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规",
+        "ETH",
+        "Kraken"
+      ],
+      "entities": [
+        "ETH",
+        "Kraken"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "CryptoSlate",
+          "url": "https://cryptoslate.com/kraken-drops-monero-spending-questions-but-keeps-a-1500-rolling-30-day-withdrawal-cap-for-individuals/",
+          "published_at": "2026-10-24T19:00:37Z"
+        }
+      ],
+      "published_at": "2026-10-24T19:00:37Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「监管」，当前热度 42、风险 47。主要风险信号为：未发现强风险词。建议结合后续来源变化持续观察。",
+      "risk_reason": "未发现强风险词",
+      "is_demo": false
+    },
+    {
+      "id": "5e828d66aaac",
+      "title": "Netanyahu Considering Crypto Plan to Dodge Banking Sanctions on Israel",
+      "summary": "Days before Israel’s election, Netanyahu said he has asked for a blockchain plan in case banks are hit with sanctions, and told Israelis to prepare for a rainy day after Trump.",
+      "category": "技术",
+      "sentiment": 29,
+      "risk": 56,
+      "heat": 35,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "技术",
+        "升级",
+        "开发者",
+        "基础设施"
+      ],
+      "entities": [],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/381758/netanyahu-crypto-plan-banking-sanctions-israel",
+          "published_at": "2026-10-23T21:16:03Z"
+        }
+      ],
+      "published_at": "2026-10-23T21:16:03Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「技术」，当前热度 35、风险 56。主要风险信号为：ban, sanction。建议结合后续来源变化持续观察。",
+      "risk_reason": "ban, sanction",
+      "is_demo": false
+    },
+    {
+      "id": "6a3d24455ba9",
+      "title": "Netanyahu seeking blockchain plan to prepare for possible sanctions",
+      "summary": "Netanyahu says blockchain could help Israel prepare for possible sanctions targeting its banking system.",
+      "category": "技术",
+      "sentiment": 29,
+      "risk": 56,
+      "heat": 35,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "技术",
+        "升级",
+        "开发者",
+        "基础设施"
+      ],
+      "entities": [],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-23-netanyahu-israel-blockchain-plan-possible-sanctions-427792",
+          "published_at": "2026-10-23T18:15:55Z"
+        }
+      ],
+      "published_at": "2026-10-23T18:15:55Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「技术」，当前热度 35、风险 56。主要风险信号为：ban, sanction。建议结合后续来源变化持续观察。",
+      "risk_reason": "ban, sanction",
+      "is_demo": false
+    },
+    {
+      "id": "4744d77855b9",
+      "title": "Bitcoin Core speeds up security fixes as 44% of surveyed nodes run unsupported versions",
+      "summary": "Bitcoin Core merged a policy amendment on Oct. 22 that lets developers backport fixes for easily rediscovered vulnerabilities to every maintained release line and publish an advisory alongside them. A network snapshot from Oct. 18 shows that 3,671 of 8,422 self-reported Bitcoin Core peers (43.6%) ran release lines that had already reached end of life.… Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in you…",
+      "category": "技术",
+      "sentiment": 50,
+      "risk": 39,
+      "heat": 44,
+      "risk_level": "low",
+      "risk_label": "低",
+      "tags": [
+        "技术",
+        "升级",
+        "开发者",
+        "基础设施",
+        "Bitcoin",
+        "SEC"
+      ],
+      "entities": [
+        "Bitcoin",
+        "SEC"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitcoin-core-speeds-up-security-fixes-as-44-of-surveyed-nodes-run-unsupported-versions/",
+          "published_at": "2026-10-24T14:45:04Z"
+        }
+      ],
+      "published_at": "2026-10-24T14:45:04Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「技术」，当前热度 44、风险 39。主要风险信号为：security。建议结合后续来源变化持续观察。",
+      "risk_reason": "security",
+      "is_demo": false
+    },
+    {
+      "id": "8985327c9b3c",
+      "title": "Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO",
+      "summary": "Borrowing against bitcoin and earning income to build their BTC holdings are becoming priorities for long-term investors, Xapo Bank CEO Seamus Rocca told CoinDesk.",
+      "category": "技术",
+      "sentiment": 50,
+      "risk": 39,
+      "heat": 44,
+      "risk_level": "low",
+      "risk_label": "低",
+      "tags": [
+        "技术",
+        "升级",
+        "开发者",
+        "基础设施",
+        "Bitcoin",
+        "BTC"
+      ],
+      "entities": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/24/bitcoin-s-wealthy-holders-turning-to-loans-and-yield-as-investment-habits-mature-xapo-ceo",
+          "published_at": "2026-10-24T14:00:00Z"
+        }
+      ],
+      "published_at": "2026-10-24T14:00:00Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「技术」，当前热度 44、风险 39。主要风险信号为：ban。建议结合后续来源变化持续观察。",
+      "risk_reason": "ban",
+      "is_demo": false
+    },
+    {
+      "id": "e569456867d2",
+      "title": "Crypto Scammers Who Used Prayer Groups to Lure Victims Must Pay $1.3 Billion, Says New York",
+      "summary": "New York’s attorney general asked a court to order NovaTech’s founders, who fled the country, to pay about $1.37 billion, and settled with four top promoters for nearly $6 million.",
+      "category": "监管",
+      "sentiment": 36,
+      "risk": 54,
+      "heat": 33,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规"
+      ],
+      "entities": [],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/381708/crypto-scammers-prayer-groups-lure-victims-must-pay-1-3-billion-new-york",
+          "published_at": "2026-10-23T16:31:03Z"
+        }
+      ],
+      "published_at": "2026-10-23T16:31:03Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「监管」，当前热度 33、风险 54。主要风险信号为：scam。建议结合后续来源变化持续观察。",
+      "risk_reason": "scam",
+      "is_demo": false
+    },
+    {
+      "id": "1d39ce47e2fe",
+      "title": "Bank of Korea Wants Stablecoins Written Into Forex Law as Crypto Bill and Tax Fight Come to a Head",
+      "summary": "Bitcoin Magazine Bank of Korea Wants Stablecoins Written Into Forex Law as Crypto Bill and Tax Fight Come to a Head The Bank of Korea told lawmakers it will draft a forex law amendment this year to regulate stablecoins as a means of payment, a plan that points to tighter cross-border controls rather than legal-tender status. This post Bank of Korea Wants Stablecoins Written Into Forex Law as Crypto Bill and Tax Fight Come to a Head first appeared on Bitcoin Magazine and is w…",
+      "category": "监管",
+      "sentiment": 36,
+      "risk": 54,
+      "heat": 33,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规",
+        "Bitcoin",
+        "Stablecoin"
+      ],
+      "entities": [
+        "Bitcoin",
+        "Stablecoin"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/bank-of-korea-crypto-bill-and-tax",
+          "published_at": "2026-10-23T14:01:41Z"
+        }
+      ],
+      "published_at": "2026-10-23T14:01:41Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「监管」，当前热度 33、风险 54。主要风险信号为：ban。建议结合后续来源变化持续观察。",
+      "risk_reason": "ban",
+      "is_demo": false
+    },
+    {
+      "id": "8ef02f06f195",
+      "title": "Phantom rolls out Kalshi prediction markets to US users, says it’s ‘confident and comfortable’ amid state lawsuits",
+      "summary": "Phantom users will fund trades with CASH stablecoins, with market restrictions applied in Michigan, Nevada and Washington.",
+      "category": "监管",
+      "sentiment": 36,
+      "risk": 54,
+      "heat": 33,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规",
+        "Kalshi",
+        "Stablecoin"
+      ],
+      "entities": [
+        "Kalshi",
+        "Stablecoin"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-23-phantom-rolls-out-kalshi-prediction-markets-us-421652",
+          "published_at": "2026-10-23T13:00:00Z"
+        }
+      ],
+      "published_at": "2026-10-23T13:00:00Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「监管」，当前热度 33、风险 54。主要风险信号为：lawsuit。建议结合后续来源变化持续观察。",
+      "risk_reason": "lawsuit",
+      "is_demo": false
+    },
+    {
+      "id": "a4ca93de8f5f",
+      "title": "Singapore, Malaysia and Thailand central banks expand cross-border stablecoin initiative involving Ripple, Visa and Mastercard",
+      "summary": "Malaysia and Thailand have joined Singapore's BLOOM initiative for cross-border stablecoin and tokenized deposit settlement.",
+      "category": "监管",
+      "sentiment": 36,
+      "risk": 54,
+      "heat": 33,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规",
+        "Stablecoin"
+      ],
+      "entities": [
+        "Stablecoin"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-23-singapore-malaysia-and-thailand-central-banks-expand-cross-border-stablecoin-initiative-involving-ripple-visa-and-mastercard-426492",
+          "published_at": "2026-10-23T12:55:26Z"
+        }
+      ],
+      "published_at": "2026-10-23T12:55:26Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「监管」，当前热度 33、风险 54。主要风险信号为：ban。建议结合后续来源变化持续观察。",
+      "risk_reason": "ban",
+      "is_demo": false
+    }
+  ],
+  "market": {
+    "btc": {
+      "symbol": "BTC",
+      "price": 80432.0,
+      "change_24h": -0.15308
+    },
+    "eth": {
+      "symbol": "ETH",
+      "price": 2333.89,
+      "change_24h": -1.24233
+    },
+    "sol": {
+      "symbol": "SOL",
+      "price": 101.0,
+      "change_24h": -0.29917
+    },
+    "fear_greed": {
+      "value": 54,
+      "label": "Neutral"
+    },
+    "global_market_cap": 2684129360694.2344,
+    "market_cap_change_24h": -3.666014957333884,
+    "is_demo": false
+  },
+  "prediction_markets": [
+    {
+      "question": "Will Bitcoin dip to $70,000 by December 31, 2026?",
+      "probability": 40,
+      "outcome": "Yes",
+      "volume": 157515.20007299996,
+      "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027",
+      "end_date": "2027-01-01T05:00:00Z",
+      "relevance": 10,
+      "is_demo": false
+    },
+    {
+      "question": "Will Bitcoin dip to $78,000 October 19-25?",
+      "probability": 6,
+      "outcome": "Yes",
+      "volume": 142524.85004500003,
+      "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-october-19-25-2026",
+      "end_date": "2026-10-26T04:00:00Z",
+      "relevance": 10,
+      "is_demo": false
+    },
+    {
+      "question": "Will Ethereum dip to $1,700 October 19-25?",
+      "probability": 0,
+      "outcome": "Yes",
+      "volume": 109241.349419,
+      "url": "https://polymarket.com/event/what-price-will-ethereum-hit-october-19-25-2026",
+      "end_date": "2026-10-26T04:00:00Z",
+      "relevance": 10,
+      "is_demo": false
+    },
+    {
+      "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+      "probability": 96,
+      "outcome": "Yes",
+      "volume": 696128.8416530002,
+      "url": "https://polymarket.com/event/fed-decision-in-october-20260617190323537",
+      "end_date": "2026-10-29T03:59:00Z",
+      "relevance": 2,
+      "is_demo": false
+    }
+  ],
+  "report": {
+    "headline": "安全信号升温：Argentina drops criminal probe into President Milei over crashed memecoin LIBRA",
+    "summary": "本轮扫描共形成 24 个事件，其中 6 个达到高风险阈值。当前关注重点集中在安全、监管、监管。",
+    "risk_outlook": "当前平均风险指数为 56。建议重点关注监管、安全与社区情绪叠加的事件，并在下一轮更新时复核。",
+    "actions": [
+      "优先核查高风险事件的多来源一致性，并确认是否出现新的官方回应。",
+      "将高热度事件加入下一轮监控清单，观察 2～6 小时内传播速度变化。",
+      "结合预测市场与 BTC 24 小时变化约 -0.15%，判断是否存在可跟踪的交易或运营机会。"
+    ],
+    "event_notes": {
+      "587fbf3f893f": {
+        "analysis": "该事件被归类为「技术」，当前热度 66、风险 56。主要风险信号为：ban, sanction。建议结合后续来源变化持续观察。",
+        "risk_reason": "ban, sanction"
+      },
+      "9aafe294883b": {
+        "analysis": "该事件被归类为「安全」，当前热度 64、风险 54。主要风险信号为：breach。建议结合后续来源变化持续观察。",
+        "risk_reason": "breach"
+      },
+      "70b74ce998ed": {
+        "analysis": "该事件被归类为「安全」，当前热度 50、风险 70。主要风险信号为：fraud, probe。建议结合后续来源变化持续观察。",
+        "risk_reason": "fraud, probe"
+      },
+      "87dbe7c3ca1b": {
+        "analysis": "该事件被归类为「监管」，当前热度 60、风险 47。主要风险信号为：ban。建议结合后续来源变化持续观察。",
+        "risk_reason": "ban"
+      },
+      "2a4da9007e76": {
+        "analysis": "该事件被归类为「监管」，当前热度 37、风险 74。主要风险信号为：ban, attack, security。建议结合后续来源变化持续观察。",
+        "risk_reason": "ban, attack, security"
+      },
+      "1ecb723910d0": {
+        "analysis": "该事件被归类为「监管」，当前热度 44、风险 64。主要风险信号为：lawsuit, sue。建议结合后续来源变化持续观察。",
+        "risk_reason": "lawsuit, sue"
+      },
+      "2ce2c00b2a1b": {
+        "analysis": "该事件被归类为「监管」，当前热度 44、风险 64。主要风险信号为：sue, ban。建议结合后续来源变化持续观察。",
+        "risk_reason": "sue, ban"
+      },
+      "3c03f21061d8": {
+        "analysis": "该事件被归类为「安全」，当前热度 44、风险 57。主要风险信号为：scam。建议结合后续来源变化持续观察。",
+        "risk_reason": "scam"
+      },
+      "87fd770b29a2": {
+        "analysis": "该事件被归类为「技术」，当前热度 37、风险 66。主要风险信号为：exploit, drain, security。建议结合后续来源变化持续观察。",
+        "risk_reason": "exploit, drain, security"
+      },
+      "d2ac36d2b4ba": {
+        "analysis": "该事件被归类为「安全」，当前热度 35、风险 64。主要风险信号为：attack, security。建议结合后续来源变化持续观察。",
+        "risk_reason": "attack, security"
+      },
+      "fbe25a09f4ef": {
+        "analysis": "该事件被归类为「安全」，当前热度 42、风险 54。主要风险信号为：fraud。建议结合后续来源变化持续观察。",
+        "risk_reason": "fraud"
+      },
+      "ff2924234bf7": {
+        "analysis": "该事件被归类为「监管」，当前热度 42、风险 54。主要风险信号为：security。建议结合后续来源变化持续观察。",
+        "risk_reason": "security"
+      }
+    },
+    "ai_used": false,
+    "generated_by": "规则引擎",
+    "mode": "live",
+    "generated_at": "2026-10-25T12:13:35.257676Z"
+  },
+  "stats": {
+    "event_count": 24,
+    "scanned_items": 68,
+    "high_risk_count": 6,
+    "critical_count": 0,
+    "sentiment_index": 35,
+    "risk_index": 56,
+    "source_count": 8,
+    "category_count": 3,
+    "top_category": "监管"
+  },
+  "trend": {
+    "values": [
+      100,
+      37,
+      18,
+      18,
+      32,
+      48
+    ],
+    "labels": [
+      "24h前",
+      "20h",
+      "16h",
+      "12h",
+      "8h",
+      "现在"
+    ]
+  },
+  "sources": [
+    {
+      "name": "CoinDesk",
+      "type": "RSS",
+      "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "status": "ok",
+      "item_count": 12,
+      "error": ""
+    },
+    {
+      "name": "Cointelegraph",
+      "type": "RSS",
+      "url": "https://cointelegraph.com/rss",
+      "status": "ok",
+      "item_count": 12,
+      "error": ""
+    },
+    {
+      "name": "Decrypt",
+      "type": "RSS",
+      "url": "https://decrypt.co/feed",
+      "status": "ok",
+      "item_count": 12,
+      "error": ""
+    },
+    {
+      "name": "The Block",
+      "type": "RSS",
+      "url": "https://www.theblock.co/rss.xml",
+      "status": "ok",
+      "item_count": 12,
+      "error": ""
+    },
+    {
+      "name": "Bitcoin Magazine",
+      "type": "RSS",
+      "url": "https://bitcoinmagazine.com/feed",
+      "status": "ok",
+      "item_count": 10,
+      "error": ""
+    },
+    {
+      "name": "CryptoSlate",
+      "type": "RSS",
+      "url": "https://cryptoslate.com/feed/",
+      "status": "ok",
+      "item_count": 10,
+      "error": ""
+    },
+    {
+      "name": "CoinGecko",
+      "type": "Market API",
+      "url": "https://www.coingecko.com/",
+      "status": "ok",
+      "item_count": 3,
+      "error": ""
+    },
+    {
+      "name": "Polymarket",
+      "type": "Prediction Market",
+      "url": "https://polymarket.com/",
+      "status": "ok",
+      "item_count": 4,
+      "error": ""
+    }
+  ],
+  "methodology": {
+    "heat": "热度 = 新鲜度 + 来源数量 + 风险/情绪关键词信号",
+    "risk": "风险 = 高风险词 + 负面情绪 + 来源数量 + 监管/安全类别加权",
+    "sentiment": "情绪指数 0-100；数值越低代表越偏负面",
+    "ai": "AI 可选；未配置 Key 时使用规则引擎，不会影响网站运行"
+  },
+  "update_hint": "建议每 2 小时运行一次采集脚本；上线后由 GitHub Actions 或服务器 cron 自动执行。"
+}

@@ -1,0 +1,137 @@
+{
+  "notice": "当前展示的是离线演示快照。运行 python scripts/collect.py 后会优先替换为公开 RSS 与 API 的真实数据。",
+  "market": {
+    "btc": {"symbol": "BTC", "price": 68420.0, "change_24h": 2.36},
+    "eth": {"symbol": "ETH", "price": 2548.0, "change_24h": 1.14},
+    "sol": {"symbol": "SOL", "price": 162.5, "change_24h": -0.82},
+    "fear_greed": {"value": 63, "label": "Greed"},
+    "global_market_cap": 2410000000000,
+    "market_cap_change_24h": 1.62
+  },
+  "prediction_markets": [
+    {"question": "下一季度是否会推出新的加密现货 ETF？", "probability": 64, "volume": 1280000, "url": "https://polymarket.com/"},
+    {"question": "本月 BTC 是否维持在当前区间上方？", "probability": 58, "volume": 860000, "url": "https://polymarket.com/"},
+    {"question": "主流公链是否会发布重大升级？", "probability": 43, "volume": 420000, "url": "https://polymarket.com/"}
+  ],
+  "events": [
+    {
+      "title": "稳定币监管框架进入讨论窗口，市场关注合规成本",
+      "summary": "多家行业媒体围绕稳定币监管、储备披露和跨境支付合规展开讨论。市场重点观察政策口径变化对交易所流动性和机构资金入场节奏的影响。",
+      "category": "监管",
+      "sentiment": 42,
+      "risk": 78,
+      "heat": 93,
+      "tags": ["稳定币", "监管", "机构"],
+      "entities": ["SEC", "USDC", "USDT"],
+      "age_hours": 1.4,
+      "sources": [
+        {"name": "演示新闻聚合 A", "url": "https://www.coindesk.com/", "age_hours": 1.4},
+        {"name": "演示新闻聚合 B", "url": "https://cointelegraph.com/", "age_hours": 2.1},
+        {"name": "演示社区信号", "url": "https://www.reddit.com/r/CryptoCurrency/", "age_hours": 2.7}
+      ]
+    },
+    {
+      "title": "主流交易所升级风控，异常账户处置成为社区焦点",
+      "summary": "交易平台近期加强异常交易和账户风险检查，社区讨论集中在申诉效率、资产安全和规则透明度。该事件具有较高的用户反馈监测价值。",
+      "category": "交易所",
+      "sentiment": 38,
+      "risk": 67,
+      "heat": 87,
+      "tags": ["交易所", "风控", "用户反馈"],
+      "entities": ["Binance", "Coinbase", "OKX"],
+      "age_hours": 2.2,
+      "sources": [
+        {"name": "演示社区信号 A", "url": "https://www.reddit.com/r/CryptoCurrency/", "age_hours": 2.2},
+        {"name": "演示新闻聚合 C", "url": "https://decrypt.co/", "age_hours": 3.0}
+      ]
+    },
+    {
+      "title": "预测市场交易活跃度上升，宏观事件盘口受到关注",
+      "summary": "预测市场的宏观事件与加密资产相关盘口出现交易活跃度提升。参与者和运营团队都在关注赔率变化、事件质量与流动性分布。",
+      "category": "预测市场",
+      "sentiment": 61,
+      "risk": 31,
+      "heat": 82,
+      "tags": ["Polymarket", "Kalshi", "宏观"],
+      "entities": ["Polymarket", "Kalshi"],
+      "age_hours": 3.4,
+      "sources": [
+        {"name": "演示预测市场数据", "url": "https://polymarket.com/", "age_hours": 3.4},
+        {"name": "演示新闻聚合 D", "url": "https://www.theblock.co/", "age_hours": 4.1}
+      ]
+    },
+    {
+      "title": "公链生态出现短时服务中断，团队称已恢复",
+      "summary": "某公链生态服务出现短时不可用，开发者与用户关注故障原因、资金安全和后续复盘。事件已进入恢复阶段，但社区对基础设施可靠性的讨论仍在持续。",
+      "category": "安全",
+      "sentiment": 35,
+      "risk": 59,
+      "heat": 75,
+      "tags": ["公链", "宕机", "基础设施"],
+      "entities": ["Solana", "RPC"],
+      "age_hours": 4.2,
+      "sources": [
+        {"name": "演示技术信号", "url": "https://www.theblock.co/", "age_hours": 4.2},
+        {"name": "演示社区信号 B", "url": "https://www.reddit.com/r/solana/", "age_hours": 5.0}
+      ]
+    },
+    {
+      "title": "ETF 资金流向分化，机构情绪转向谨慎",
+      "summary": "加密 ETF 资金流向出现分化，市场对机构风险偏好和后续增量资金展开讨论。价格波动与资金面变化成为短期监测重点。",
+      "category": "市场",
+      "sentiment": 47,
+      "risk": 49,
+      "heat": 73,
+      "tags": ["ETF", "机构", "资金流"],
+      "entities": ["Bitcoin", "Ethereum", "ETF"],
+      "age_hours": 5.1,
+      "sources": [
+        {"name": "演示市场数据", "url": "https://www.coingecko.com/", "age_hours": 5.1},
+        {"name": "演示新闻聚合 E", "url": "https://www.coindesk.com/", "age_hours": 5.8}
+      ]
+    },
+    {
+      "title": "社区对空投规则提出质疑，项目方调整说明",
+      "summary": "社区用户围绕空投资格、快照时间和规则透明度提出问题，项目方补充了规则说明。该事件展示了社区运营与舆情响应之间的直接关联。",
+      "category": "社区",
+      "sentiment": 33,
+      "risk": 61,
+      "heat": 69,
+      "tags": ["空投", "社区运营", "用户情绪"],
+      "entities": ["Airdrop", "DAO"],
+      "age_hours": 6.6,
+      "sources": [
+        {"name": "演示社区信号 C", "url": "https://www.reddit.com/r/CryptoCurrency/", "age_hours": 6.6}
+      ]
+    },
+    {
+      "title": "跨链桥安全审计报告发布，漏洞修复窗口受关注",
+      "summary": "安全团队发布跨链桥审计报告，社区关注漏洞修复进度、资金保障机制以及是否出现新的攻击面。安全类事件继续保持较高监测优先级。",
+      "category": "安全",
+      "sentiment": 29,
+      "risk": 74,
+      "heat": 66,
+      "tags": ["跨链桥", "审计", "安全"],
+      "entities": ["Bridge", "Audit"],
+      "age_hours": 7.8,
+      "sources": [
+        {"name": "演示安全信号", "url": "https://decrypt.co/", "age_hours": 7.8},
+        {"name": "演示技术信号 B", "url": "https://cointelegraph.com/", "age_hours": 8.4}
+      ]
+    },
+    {
+      "title": "AI 与加密支付结合成为新叙事，开发者讨论升温",
+      "summary": "开发者和投资者围绕 AI Agent、链上支付与自动化交易展开讨论。相关叙事热度上升，但市场仍在观察真实用户需求与可持续商业模式。",
+      "category": "技术",
+      "sentiment": 72,
+      "risk": 27,
+      "heat": 62,
+      "tags": ["AI", "支付", "开发者"],
+      "entities": ["AI Agent", "Stablecoin"],
+      "age_hours": 9.2,
+      "sources": [
+        {"name": "演示技术信号 C", "url": "https://www.theblock.co/", "age_hours": 9.2}
+      ]
+    }
+  ]
+}

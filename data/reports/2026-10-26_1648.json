@@ -1,0 +1,479 @@
+{
+  "version": "0.1.0",
+  "generated_at": "2026-10-26T08:48:30.817270Z",
+  "mode": "demo",
+  "notice": "当前展示的是离线演示快照。运行 python scripts/collect.py 后会优先替换为公开 RSS 与 API 的真实数据。",
+  "events": [
+    {
+      "id": "806b8a3f47f9",
+      "title": "稳定币监管框架进入讨论窗口，市场关注合规成本",
+      "summary": "多家行业媒体围绕稳定币监管、储备披露和跨境支付合规展开讨论。市场重点观察政策口径变化对交易所流动性和机构资金入场节奏的影响。",
+      "category": "监管",
+      "sentiment": 42,
+      "risk": 78,
+      "heat": 93,
+      "risk_level": "critical",
+      "risk_label": "极高",
+      "tags": [
+        "稳定币",
+        "监管",
+        "机构"
+      ],
+      "entities": [
+        "SEC",
+        "USDC",
+        "USDT"
+      ],
+      "source_count": 3,
+      "sources": [
+        {
+          "name": "演示新闻聚合 A",
+          "url": "https://www.coindesk.com/",
+          "published_at": "2026-10-26T07:24:14.787128Z"
+        },
+        {
+          "name": "演示新闻聚合 B",
+          "url": "https://cointelegraph.com/",
+          "published_at": "2026-10-26T06:42:14.787128Z"
+        },
+        {
+          "name": "演示社区信号",
+          "url": "https://www.reddit.com/r/CryptoCurrency/",
+          "published_at": "2026-10-26T06:06:14.787128Z"
+        }
+      ],
+      "published_at": "2026-10-26T07:24:14.787128Z",
+      "status": "new",
+      "analysis": "当前为演示快照。该事件属于「监管」，风险等级为 极高，主要用于展示产品界面和分析流程。",
+      "risk_reason": "演示数据，不构成真实事件判断",
+      "is_demo": true
+    },
+    {
+      "id": "530112f7fcd4",
+      "title": "主流交易所升级风控，异常账户处置成为社区焦点",
+      "summary": "交易平台近期加强异常交易和账户风险检查，社区讨论集中在申诉效率、资产安全和规则透明度。该事件具有较高的用户反馈监测价值。",
+      "category": "交易所",
+      "sentiment": 38,
+      "risk": 67,
+      "heat": 87,
+      "risk_level": "high",
+      "risk_label": "高",
+      "tags": [
+        "交易所",
+        "风控",
+        "用户反馈"
+      ],
+      "entities": [
+        "Binance",
+        "Coinbase",
+        "OKX"
+      ],
+      "source_count": 2,
+      "sources": [
+        {
+          "name": "演示社区信号 A",
+          "url": "https://www.reddit.com/r/CryptoCurrency/",
+          "published_at": "2026-10-26T06:36:14.787128Z"
+        },
+        {
+          "name": "演示新闻聚合 C",
+          "url": "https://decrypt.co/",
+          "published_at": "2026-10-26T05:48:14.787128Z"
+        }
+      ],
+      "published_at": "2026-10-26T06:36:14.787128Z",
+      "status": "new",
+      "analysis": "当前为演示快照。该事件属于「交易所」，风险等级为 高，主要用于展示产品界面和分析流程。",
+      "risk_reason": "演示数据，不构成真实事件判断",
+      "is_demo": true
+    },
+    {
+      "id": "a630c14fe5fc",
+      "title": "跨链桥安全审计报告发布，漏洞修复窗口受关注",
+      "summary": "安全团队发布跨链桥审计报告，社区关注漏洞修复进度、资金保障机制以及是否出现新的攻击面。安全类事件继续保持较高监测优先级。",
+      "category": "安全",
+      "sentiment": 29,
+      "risk": 74,
+      "heat": 66,
+      "risk_level": "high",
+      "risk_label": "高",
+      "tags": [
+        "跨链桥",
+        "审计",
+        "安全"
+      ],
+      "entities": [
+        "Bridge",
+        "Audit"
+      ],
+      "source_count": 2,
+      "sources": [
+        {
+          "name": "演示安全信号",
+          "url": "https://decrypt.co/",
+          "published_at": "2026-10-26T01:00:14.787128Z"
+        },
+        {
+          "name": "演示技术信号 B",
+          "url": "https://cointelegraph.com/",
+          "published_at": "2026-10-26T00:24:14.787128Z"
+        }
+      ],
+      "published_at": "2026-10-26T01:00:14.787128Z",
+      "status": "developing",
+      "analysis": "当前为演示快照。该事件属于「安全」，风险等级为 高，主要用于展示产品界面和分析流程。",
+      "risk_reason": "演示数据，不构成真实事件判断",
+      "is_demo": true
+    },
+    {
+      "id": "51e0277db423",
+      "title": "公链生态出现短时服务中断，团队称已恢复",
+      "summary": "某公链生态服务出现短时不可用，开发者与用户关注故障原因、资金安全和后续复盘。事件已进入恢复阶段，但社区对基础设施可靠性的讨论仍在持续。",
+      "category": "安全",
+      "sentiment": 35,
+      "risk": 59,
+      "heat": 75,
+      "risk_level": "high",
+      "risk_label": "高",
+      "tags": [
+        "公链",
+        "宕机",
+        "基础设施"
+      ],
+      "entities": [
+        "Solana",
+        "RPC"
+      ],
+      "source_count": 2,
+      "sources": [
+        {
+          "name": "演示技术信号",
+          "url": "https://www.theblock.co/",
+          "published_at": "2026-10-26T04:36:14.787128Z"
+        },
+        {
+          "name": "演示社区信号 B",
+          "url": "https://www.reddit.com/r/solana/",
+          "published_at": "2026-10-26T03:48:14.787128Z"
+        }
+      ],
+      "published_at": "2026-10-26T04:36:14.787128Z",
+      "status": "new",
+      "analysis": "当前为演示快照。该事件属于「安全」，风险等级为 高，主要用于展示产品界面和分析流程。",
+      "risk_reason": "演示数据，不构成真实事件判断",
+      "is_demo": true
+    },
+    {
+      "id": "0c2fa3f1b469",
+      "title": "社区对空投规则提出质疑，项目方调整说明",
+      "summary": "社区用户围绕空投资格、快照时间和规则透明度提出问题，项目方补充了规则说明。该事件展示了社区运营与舆情响应之间的直接关联。",
+      "category": "社区",
+      "sentiment": 33,
+      "risk": 61,
+      "heat": 69,
+      "risk_level": "high",
+      "risk_label": "高",
+      "tags": [
+        "空投",
+        "社区运营",
+        "用户情绪"
+      ],
+      "entities": [
+        "Airdrop",
+        "DAO"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "演示社区信号 C",
+          "url": "https://www.reddit.com/r/CryptoCurrency/",
+          "published_at": "2026-10-26T02:12:14.787128Z"
+        }
+      ],
+      "published_at": "2026-10-26T02:12:14.787128Z",
+      "status": "developing",
+      "analysis": "当前为演示快照。该事件属于「社区」，风险等级为 高，主要用于展示产品界面和分析流程。",
+      "risk_reason": "演示数据，不构成真实事件判断",
+      "is_demo": true
+    },
+    {
+      "id": "ffc27207ce16",
+      "title": "ETF 资金流向分化，机构情绪转向谨慎",
+      "summary": "加密 ETF 资金流向出现分化，市场对机构风险偏好和后续增量资金展开讨论。价格波动与资金面变化成为短期监测重点。",
+      "category": "市场",
+      "sentiment": 47,
+      "risk": 49,
+      "heat": 73,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "ETF",
+        "机构",
+        "资金流"
+      ],
+      "entities": [
+        "Bitcoin",
+        "Ethereum",
+        "ETF"
+      ],
+      "source_count": 2,
+      "sources": [
+        {
+          "name": "演示市场数据",
+          "url": "https://www.coingecko.com/",
+          "published_at": "2026-10-26T03:42:14.787128Z"
+        },
+        {
+          "name": "演示新闻聚合 E",
+          "url": "https://www.coindesk.com/",
+          "published_at": "2026-10-26T03:00:14.787128Z"
+        }
+      ],
+      "published_at": "2026-10-26T03:42:14.787128Z",
+      "status": "new",
+      "analysis": "当前为演示快照。该事件属于「市场」，风险等级为 中，主要用于展示产品界面和分析流程。",
+      "risk_reason": "演示数据，不构成真实事件判断",
+      "is_demo": true
+    },
+    {
+      "id": "29a4658a9883",
+      "title": "预测市场交易活跃度上升，宏观事件盘口受到关注",
+      "summary": "预测市场的宏观事件与加密资产相关盘口出现交易活跃度提升。参与者和运营团队都在关注赔率变化、事件质量与流动性分布。",
+      "category": "预测市场",
+      "sentiment": 61,
+      "risk": 31,
+      "heat": 82,
+      "risk_level": "low",
+      "risk_label": "低",
+      "tags": [
+        "Polymarket",
+        "Kalshi",
+        "宏观"
+      ],
+      "entities": [
+        "Polymarket",
+        "Kalshi"
+      ],
+      "source_count": 2,
+      "sources": [
+        {
+          "name": "演示预测市场数据",
+          "url": "https://polymarket.com/",
+          "published_at": "2026-10-26T05:24:14.787128Z"
+        },
+        {
+          "name": "演示新闻聚合 D",
+          "url": "https://www.theblock.co/",
+          "published_at": "2026-10-26T04:42:14.787128Z"
+        }
+      ],
+      "published_at": "2026-10-26T05:24:14.787128Z",
+      "status": "new",
+      "analysis": "当前为演示快照。该事件属于「预测市场」，风险等级为 低，主要用于展示产品界面和分析流程。",
+      "risk_reason": "演示数据，不构成真实事件判断",
+      "is_demo": true
+    },
+    {
+      "id": "6c3b948c3676",
+      "title": "AI 与加密支付结合成为新叙事，开发者讨论升温",
+      "summary": "开发者和投资者围绕 AI Agent、链上支付与自动化交易展开讨论。相关叙事热度上升，但市场仍在观察真实用户需求与可持续商业模式。",
+      "category": "技术",
+      "sentiment": 72,
+      "risk": 27,
+      "heat": 62,
+      "risk_level": "low",
+      "risk_label": "低",
+      "tags": [
+        "AI",
+        "支付",
+        "开发者"
+      ],
+      "entities": [
+        "AI Agent",
+        "Stablecoin"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "演示技术信号 C",
+          "url": "https://www.theblock.co/",
+          "published_at": "2026-10-25T23:36:14.787128Z"
+        }
+      ],
+      "published_at": "2026-10-25T23:36:14.787128Z",
+      "status": "developing",
+      "analysis": "当前为演示快照。该事件属于「技术」，风险等级为 低，主要用于展示产品界面和分析流程。",
+      "risk_reason": "演示数据，不构成真实事件判断",
+      "is_demo": true
+    }
+  ],
+  "market": {
+    "btc": {
+      "symbol": "BTC",
+      "price": 80173.0,
+      "change_24h": -0.29377
+    },
+    "eth": {
+      "symbol": "ETH",
+      "price": 2325.52,
+      "change_24h": -0.48635
+    },
+    "sol": {
+      "symbol": "SOL",
+      "price": 101.12,
+      "change_24h": 0.09465
+    },
+    "fear_greed": {
+      "value": 50,
+      "label": "Neutral"
+    },
+    "global_market_cap": 2681811453222.5347,
+    "market_cap_change_24h": -3.006008978019485,
+    "is_demo": false
+  },
+  "prediction_markets": [
+    {
+      "question": "Will the price of Bitcoin be above $84,000 on October 26?",
+      "probability": 1,
+      "outcome": "Yes",
+      "volume": 71888.13327399999,
+      "url": "https://polymarket.com/event/bitcoin-above-on-october-26-2026",
+      "end_date": "2026-10-26T16:00:00Z",
+      "relevance": 10,
+      "is_demo": false
+    },
+    {
+      "question": "Will the price of Bitcoin be above $72,000 on October 26?",
+      "probability": 100,
+      "outcome": "Yes",
+      "volume": 68595.059818,
+      "url": "https://polymarket.com/event/bitcoin-above-on-october-26-2026",
+      "end_date": "2026-10-26T16:00:00Z",
+      "relevance": 10,
+      "is_demo": false
+    },
+    {
+      "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+      "probability": 94,
+      "outcome": "Yes",
+      "volume": 1811556.9668909998,
+      "url": "https://polymarket.com/event/fed-decision-in-october-20260617190323537",
+      "end_date": "2026-10-29T03:59:00Z",
+      "relevance": 2,
+      "is_demo": false,
+      "question_zh": "2026 年 10 月美联储会议后利率会维持不变吗？"
+    },
+    {
+      "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+      "probability": 4,
+      "outcome": "Yes",
+      "volume": 1028786.837533,
+      "url": "https://polymarket.com/event/fed-decision-in-october-20260617190323537",
+      "end_date": "2026-10-29T03:59:00Z",
+      "relevance": 2,
+      "is_demo": false
+    }
+  ],
+  "report": {
+    "headline": "监管与合规信号升温，关注政策口径与机构反应",
+    "summary": "本轮扫描共形成 8 个事件，其中 5 个达到高风险阈值。当前关注重点集中在监管、交易所、安全。",
+    "risk_outlook": "当前平均风险指数为 56。建议重点关注监管、安全与社区情绪叠加的事件，并在下一轮更新时复核。",
+    "actions": [
+      "优先核查高风险事件的多来源一致性，并确认是否出现新的官方回应。",
+      "将高热度事件加入下一轮监控清单，观察 2～6 小时内传播速度变化。",
+      "结合预测市场与 BTC 24 小时变化约 -0.29%，判断是否存在可跟踪的交易或运营机会。"
+    ],
+    "event_notes": {
+      "806b8a3f47f9": {
+        "analysis": "当前为演示快照。该事件属于「监管」，风险等级为 极高，主要用于展示产品界面和分析流程。",
+        "risk_reason": "演示数据，不构成真实事件判断"
+      },
+      "530112f7fcd4": {
+        "analysis": "当前为演示快照。该事件属于「交易所」，风险等级为 高，主要用于展示产品界面和分析流程。",
+        "risk_reason": "演示数据，不构成真实事件判断"
+      },
+      "a630c14fe5fc": {
+        "analysis": "当前为演示快照。该事件属于「安全」，风险等级为 高，主要用于展示产品界面和分析流程。",
+        "risk_reason": "演示数据，不构成真实事件判断"
+      },
+      "51e0277db423": {
+        "analysis": "当前为演示快照。该事件属于「安全」，风险等级为 高，主要用于展示产品界面和分析流程。",
+        "risk_reason": "演示数据，不构成真实事件判断"
+      },
+      "0c2fa3f1b469": {
+        "analysis": "当前为演示快照。该事件属于「社区」，风险等级为 高，主要用于展示产品界面和分析流程。",
+        "risk_reason": "演示数据，不构成真实事件判断"
+      },
+      "ffc27207ce16": {
+        "analysis": "当前为演示快照。该事件属于「市场」，风险等级为 中，主要用于展示产品界面和分析流程。",
+        "risk_reason": "演示数据，不构成真实事件判断"
+      },
+      "29a4658a9883": {
+        "analysis": "当前为演示快照。该事件属于「预测市场」，风险等级为 低，主要用于展示产品界面和分析流程。",
+        "risk_reason": "演示数据，不构成真实事件判断"
+      },
+      "6c3b948c3676": {
+        "analysis": "当前为演示快照。该事件属于「技术」，风险等级为 低，主要用于展示产品界面和分析流程。",
+        "risk_reason": "演示数据，不构成真实事件判断"
+      }
+    },
+    "ai_used": false,
+    "generated_by": "规则引擎",
+    "mode": "demo",
+    "generated_at": "2026-10-26T08:48:30.817270Z"
+  },
+  "stats": {
+    "event_count": 8,
+    "scanned_items": 15,
+    "high_risk_count": 5,
+    "critical_count": 1,
+    "sentiment_index": 45,
+    "risk_index": 56,
+    "source_count": 2,
+    "category_count": 7,
+    "top_category": "安全"
+  },
+  "trend": {
+    "values": [
+      18,
+      18,
+      18,
+      36,
+      100,
+      94
+    ],
+    "labels": [
+      "24h前",
+      "20h",
+      "16h",
+      "12h",
+      "8h",
+      "现在"
+    ]
+  },
+  "sources": [
+    {
+      "name": "CoinGecko",
+      "type": "Market API",
+      "url": "https://www.coingecko.com/",
+      "status": "ok",
+      "item_count": 3,
+      "error": ""
+    },
+    {
+      "name": "Polymarket",
+      "type": "Prediction Market",
+      "url": "https://polymarket.com/",
+      "status": "ok",
+      "item_count": 4,
+      "error": ""
+    }
+  ],
+  "methodology": {
+    "heat": "热度 = 新鲜度 + 来源数量 + 风险/情绪关键词信号",
+    "risk": "风险 = 高风险词 + 负面情绪 + 来源数量 + 监管/安全类别加权",
+    "sentiment": "情绪指数 0-100；数值越低代表越偏负面",
+    "ai": "AI 可选；未配置 Key 时使用规则引擎，不会影响网站运行"
+  },
+  "update_hint": "建议每 2 小时运行一次采集脚本；上线后由 GitHub Actions 或服务器 cron 自动执行。"
+}

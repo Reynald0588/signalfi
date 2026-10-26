@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1040" viewBox="0 0 1600 1040">
+  <defs>
+    <linearGradient id="bbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#080B14"/><stop offset=".55" stop-color="#0D1220"/><stop offset="1" stop-color="#101828"/></linearGradient>
+    <pattern id="bgrid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" fill="none" stroke="#26334A" stroke-opacity=".22"/></pattern>
+    <filter id="bglow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="1040" fill="url(#bbg)"/><rect width="1600" height="1040" fill="url(#bgrid)"/>
+  <circle cx="1420" cy="100" r="340" fill="#5B8CFF" opacity=".045"/>
+  <g font-family="Inter, Segoe UI, Microsoft YaHei, sans-serif">
+    <text x="48" y="42" fill="#42D9F5" font-size="11" font-weight="700" letter-spacing="3">SIGNALFI · BRAND SYSTEM 01</text>
+    <text x="48" y="82" fill="#F1F5F9" font-size="34" font-weight="700" letter-spacing="-1.2">Dark Intelligence Terminal</text>
+    <text x="48" y="110" fill="#A0AEC0" font-size="13">专业、现代、可信、具有数据密度。避免游戏化、过度霓虹、复杂 3D 和装饰性渐变。</text>
+    <rect x="1324" y="30" width="228" height="34" rx="17" fill="#121A2B" stroke="#26334A"/>
+    <circle cx="1345" cy="47" r="4" fill="#42D9F5"/>
+    <text x="1360" y="51" fill="#A0AEC0" font-size="9" letter-spacing="1">BRAND / UI FOUNDATION</text>
+
+    <rect x="48" y="146" width="616" height="330" rx="18" fill="#0D1220" stroke="#26334A"/>
+    <text x="72" y="177" fill="#718096" font-size="9" letter-spacing=".8">RADAR SIGNAL MARK + WORDMARK</text>
+    <rect x="72" y="194" width="568" height="132" rx="13" fill="#080B14" stroke="#26334A"/>
+    <g transform="translate(104 228) scale(1.42)" fill="none" stroke-linecap="round">
+      <circle cx="32" cy="32" r="11" pathLength="100" stroke="#5B8CFF" stroke-width="3" stroke-dasharray="72 28" transform="rotate(-105 32 32)"/>
+      <circle cx="32" cy="32" r="20" pathLength="100" stroke="#5B8CFF" stroke-width="2.6" stroke-dasharray="72 28" stroke-opacity=".72" transform="rotate(-105 32 32)"/>
+      <circle cx="32" cy="32" r="28" pathLength="100" stroke="#82A9FF" stroke-width="2.2" stroke-dasharray="72 28" stroke-opacity=".45" transform="rotate(-105 32 32)"/>
+      <circle cx="32" cy="32" r="4.2" fill="#42D9F5" stroke="none"/>
+      <circle cx="48.5" cy="18.5" r="3.6" fill="#42D9F5" stroke="none"/>
+    </g>
+    <text x="242" y="252" fill="#F1F5F9" font-size="31" font-weight="700" letter-spacing="-1">Signal<tspan fill="#82A9FF">Fi</tspan></text>
+    <text x="243" y="275" fill="#718096" font-size="8" font-weight="600" letter-spacing="2">WEB3 INTELLIGENCE TERMINAL</text>
+
+    <text x="72" y="358" fill="#718096" font-size="8" letter-spacing=".7">SIZE TEST · 24 / 32 / 64 / 128</text>
+    <g transform="translate(80 380)">
+      <rect width="80" height="70" rx="8" fill="#121A2B" stroke="#26334A"/>
+      <g transform="translate(28 23) scale(.375)" fill="none" stroke-linecap="round">
+        <circle cx="32" cy="32" r="11" pathLength="100" stroke="#5B8CFF" stroke-width="4.2" stroke-dasharray="72 28" transform="rotate(-105 32 32)"/><circle cx="32" cy="32" r="20" pathLength="100" stroke="#5B8CFF" stroke-width="3.8" stroke-dasharray="72 28" transform="rotate(-105 32 32)"/><circle cx="32" cy="32" r="28" pathLength="100" stroke="#82A9FF" stroke-width="3.2" stroke-dasharray="72 28" transform="rotate(-105 32 32)"/><circle cx="32" cy="32" r="5.5" fill="#42D9F5" stroke="none"/><circle cx="48.5" cy="18.5" r="4.4" fill="#42D9F5" stroke="none"/>
+      </g>
+      <text x="19" y="64" fill="#718096" font-size="6">24px</text>
+    </g>
+    <g transform="translate(176 380)">
+      <rect width="80" height="70" rx="8" fill="#121A2B" stroke="#26334A"/>
+      <g transform="translate(24 19) scale(.5)" fill="none" stroke-linecap="round">
+        <circle cx="32" cy="32" r="11" pathLength="100" stroke="#5B8CFF" stroke-width="4" stroke-dasharray="72 28" transform="rotate(-105 32 32)"/><circle cx="32" cy="32" r="20" pathLength="100" stroke="#5B8CFF" stroke-width="3.4" stroke-dasharray="72 28" transform="rotate(-105 32 32)"/><circle cx="32" cy="32" r="28" pathLength="100" stroke="#82A9FF" stroke-width="2.8" stroke-dasharray="72 28" transform="rotate(-105 32 32)"/><circle cx="32" cy="32" r="5" fill="#42D9F5" stroke="none"/><circle cx="48.5" cy="18.5" r="4" fill="#42D9F5" stroke="none"/>
+      </g>
+      <text x="19" y="64" fill="#718096" font-size="6">32px</text>
+    </g>
+    <g transform="translate(272 380)">
+      <rect width="80" height="70" rx="8" fill="#121A2B" stroke="#26334A"/>
+      <g transform="translate(8 3) scale(1)" fill="none" stroke-linecap="round">
+        <circle cx="32" cy="32" r="11" pathLength="100" stroke="#5B8CFF" stroke-width="3.4" stroke-dasharray="72 28" transform="rotate(-105 32 32)"/><circle cx="32" cy="32" r="20" pathLength="100" stroke="#5B8CFF" stroke-width="2.8" stroke-dasharray="72 28" transform="rotate(-105 32 32)"/><circle cx="32" cy="32" r="28" pathLength="100" stroke="#82A9FF" stroke-width="2.2" stroke-dasharray="72 28" transform="rotate(-105 32 32)"/><circle cx="32" cy="32" r="4.4" fill="#42D9F5" stroke="none"/><circle cx="48.5" cy="18.5" r="3.7" fill="#42D9F5" stroke="none"/>
+      </g>
+      <text x="19" y="64" fill="#718096" font-size="6">64px</text>
+    </g>
+    <g transform="translate(368 380)">
+      <rect width="80" height="70" rx="8" fill="#121A2B" stroke="#26334A"/>
+      <g transform="translate(-8 -17) scale(1.625)" fill="none" stroke-linecap="round">
+        <circle cx="32" cy="32" r="11" pathLength="100" stroke="#5B8CFF" stroke-width="2.8" stroke-dasharray="72 28" transform="rotate(-105 32 32)"/><circle cx="32" cy="32" r="20" pathLength="100" stroke="#5B8CFF" stroke-width="2.5" stroke-dasharray="72 28" transform="rotate(-105 32 32)"/><circle cx="32" cy="32" r="28" pathLength="100" stroke="#82A9FF" stroke-width="2" stroke-dasharray="72 28" transform="rotate(-105 32 32)"/><circle cx="32" cy="32" r="4.1" fill="#42D9F5" stroke="none"/><circle cx="48.5" cy="18.5" r="3.5" fill="#42D9F5" stroke="none"/>
+      </g>
+      <text x="19" y="64" fill="#718096" font-size="6">128px</text>
+    </g>
+    <text x="482" y="405" fill="#A0AEC0" font-size="8">中心信号点</text>
+    <text x="482" y="421" fill="#A0AEC0" font-size="8">不完整同心圆</text>
+    <text x="482" y="437" fill="#A0AEC0" font-size="8">偏移节点形成识别</text>
+    <rect x="48" y="500" width="616" height="250" rx="18" fill="#0D1220" stroke="#26334A"/>
+    <text x="72" y="531" fill="#718096" font-size="9" letter-spacing=".8">SURFACES / TEXT</text>
+    <g font-size="8">
+      <rect x="72" y="548" width="116" height="52" rx="8" fill="#080B14" stroke="#26334A"/><text x="82" y="568" fill="#A0AEC0">App Background</text><text x="82" y="586" fill="#F1F5F9">#080B14</text>
+      <rect x="198" y="548" width="116" height="52" rx="8" fill="#0D1220" stroke="#26334A"/><text x="208" y="568" fill="#A0AEC0">Panel Base</text><text x="208" y="586" fill="#F1F5F9">#0D1220</text>
+      <rect x="324" y="548" width="116" height="52" rx="8" fill="#121A2B" stroke="#26334A"/><text x="334" y="568" fill="#A0AEC0">Panel Elevated</text><text x="334" y="586" fill="#F1F5F9">#121A2B</text>
+      <rect x="450" y="548" width="116" height="52" rx="8" fill="#19243A" stroke="#26334A"/><text x="460" y="568" fill="#A0AEC0">Hover Surface</text><text x="460" y="586" fill="#F1F5F9">#19243A</text>
+      <rect x="576" y="548" width="64" height="52" rx="8" fill="#26334A"/><text x="586" y="568" fill="#A0AEC0">Border</text><text x="586" y="586" fill="#F1F5F9">#26334A</text>
+      <rect x="72" y="618" width="170" height="52" rx="8" fill="#0D1220" stroke="#26334A"/><text x="82" y="638" fill="#F1F5F9">Primary Text</text><text x="82" y="656" fill="#A0AEC0">#F1F5F9</text>
+      <rect x="252" y="618" width="170" height="52" rx="8" fill="#0D1220" stroke="#26334A"/><text x="262" y="638" fill="#A0AEC0">Secondary Text</text><text x="262" y="656" fill="#718096">#A0AEC0</text>
+      <rect x="432" y="618" width="170" height="52" rx="8" fill="#0D1220" stroke="#26334A"/><text x="442" y="638" fill="#718096">Muted Text</text><text x="442" y="656" fill="#718096">#718096</text>
+    </g>
+    <text x="72" y="704" fill="#718096" font-size="8">对比度规则：正文与面板背景保持高对比；小字号不使用低于 #718096 的灰度。</text>
+    <text x="72" y="724" fill="#A0AEC0" font-size="8">背景和边框用于层级，不使用高饱和色大面积填充。</text>
+
+    <rect x="696" y="500" width="856" height="250" rx="18" fill="#0D1220" stroke="#26334A"/>
+    <text x="720" y="531" fill="#718096" font-size="9" letter-spacing=".8">SEMANTIC COLOR TOKENS</text>
+    <g font-size="8">
+      <rect x="720" y="548" width="128" height="52" rx="8" fill="#121A2B" stroke="#26334A"/><rect x="730" y="562" width="18" height="18" rx="4" fill="#5B8CFF"/><text x="758" y="570" fill="#A0AEC0">Primary Blue</text><text x="758" y="588" fill="#F1F5F9">#5B8CFF</text>
+      <rect x="858" y="548" width="128" height="52" rx="8" fill="#121A2B" stroke="#26334A"/><rect x="868" y="562" width="18" height="18" rx="4" fill="#82A9FF"/><text x="896" y="570" fill="#A0AEC0">Bright Blue</text><text x="896" y="588" fill="#F1F5F9">#82A9FF</text>
+      <rect x="996" y="548" width="128" height="52" rx="8" fill="#121A2B" stroke="#26334A"/><rect x="1006" y="562" width="18" height="18" rx="4" fill="#42D9F5"/><text x="1034" y="570" fill="#A0AEC0">Signal Cyan</text><text x="1034" y="588" fill="#F1F5F9">#42D9F5</text>
+      <rect x="1134" y="548" width="128" height="52" rx="8" fill="#121A2B" stroke="#26334A"/><rect x="1144" y="562" width="18" height="18" rx="4" fill="#35D0B0"/><text x="1172" y="570" fill="#A0AEC0">Confirmed Teal</text><text x="1172" y="588" fill="#F1F5F9">#35D0B0</text>
+      <rect x="1272" y="548" width="128" height="52" rx="8" fill="#121A2B" stroke="#26334A"/><rect x="1282" y="562" width="18" height="18" rx="4" fill="#A78BFA"/><text x="1310" y="570" fill="#A0AEC0">Research Violet</text><text x="1310" y="588" fill="#F1F5F9">#A78BFA</text>
+      <rect x="1410" y="548" width="118" height="52" rx="8" fill="#121A2B" stroke="#26334A"/><rect x="1420" y="562" width="18" height="18" rx="4" fill="#FF647C"/><text x="1448" y="570" fill="#A0AEC0">Risk Red</text><text x="1448" y="588" fill="#F1F5F9">#FF647C</text>
+      <rect x="720" y="618" width="150" height="52" rx="8" fill="#121A2B" stroke="#26334A"/><rect x="730" y="632" width="18" height="18" rx="4" fill="#F6BD60"/><text x="758" y="640" fill="#A0AEC0">Alert Amber</text><text x="758" y="658" fill="#F1F5F9">#F6BD60</text>
+    </g>
+    <text x="720" y="704" fill="#718096" font-size="8">蓝色：主操作 / 品牌　　青色：实时状态 / 数据强调　　青绿色：已确认 / 正常</text>
+    <text x="720" y="724" fill="#718096" font-size="8">琥珀色：待核实 / 需关注　　红色：仅风险和警报　　紫色：预测市场研究</text>
+    <rect x="48" y="774" width="900" height="218" rx="18" fill="#0D1220" stroke="#26334A"/>
+    <text x="72" y="805" fill="#718096" font-size="9" letter-spacing=".8">LUCIDE ICON SYSTEM</text>
+    <g fill="none" stroke="#A0AEC0" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="72" y="827" width="64" height="64" rx="10" fill="#121A2B" stroke="#26334A"/><rect x="88" y="843" width="32" height="32" rx="3"/><path d="M88 855h10M88 863h10M104 843v32M112 843v10"/>
+      <rect x="148" y="827" width="64" height="64" rx="10" fill="#121A2B" stroke="#26334A"/><path d="M164 859h32M170 850l10 9-10 9M188 850l-10 9 10 9"/>
+      <rect x="224" y="827" width="64" height="64" rx="10" fill="#121A2B" stroke="#26334A"/><circle cx="256" cy="859" r="16"/><circle cx="256" cy="859" r="2"/><path d="M256 843v-7M256 882v-7"/>
+      <rect x="300" y="827" width="64" height="64" rx="10" fill="#121A2B" stroke="#26334A"/><path d="M265 853c8-4 22-4 30 0v20c-8 4-22 4-30 0ZM280 872c1 4 9 4 10 0"/>
+      <rect x="376" y="827" width="64" height="64" rx="10" fill="#121A2B" stroke="#26334A"/><path d="M388 875v-18M398 875v-28M408 875v-22M418 875v-34M428 875v-12"/>
+      <rect x="452" y="827" width="64" height="64" rx="10" fill="#121A2B" stroke="#26334A"/><ellipse cx="484" cy="849" rx="14" ry="6"/><path d="M470 849v20c0 3 6 6 14 6s14-3 14-6v-20M470 859c0 3 6 6 14 6s14-3 14-6"/>
+      <rect x="528" y="827" width="64" height="64" rx="10" fill="#121A2B" stroke="#26334A"/><circle cx="551" cy="851" r="8"/><path d="m557 857 8 8M544 851h14M551 844v14"/>
+      <rect x="604" y="827" width="64" height="64" rx="10" fill="#121A2B" stroke="#26334A"/><rect x="620" y="843" width="32" height="32" rx="3"/><path d="M620 851h32M628 843v32"/>
+      <rect x="680" y="827" width="64" height="64" rx="10" fill="#121A2B" stroke="#26334A"/><circle cx="704" cy="851" r="10"/><path d="m711 858 11 11"/>
+      <rect x="756" y="827" width="64" height="64" rx="10" fill="#121A2B" stroke="#26334A"/><rect x="772" y="843" width="32" height="32" rx="3"/><path d="M772 851h32M780 839v8M796 839v8M780 871v8M796 871v8"/>
+      <rect x="832" y="827" width="64" height="64" rx="10" fill="#121A2B" stroke="#26334A"/><circle cx="864" cy="859" r="15"/><path d="M864 849v10l7 5"/>
+    </g>
+    <text x="72" y="920" fill="#A0AEC0" font-size="8">导航 16–18px　指标卡片 20–24px　列表 16–18px　风险状态 14–16px</text>
+    <text x="72" y="941" fill="#718096" font-size="8">统一描边、圆角、视觉重量；不混用 Emoji、3D 图标或其他图标库。</text>
+    <text x="72" y="962" fill="#718096" font-size="8">交互图标必须有文字说明或无障碍标签；风险状态必须同时显示文字。</text>
+
+    <rect x="968" y="774" width="584" height="218" rx="18" fill="#0D1220" stroke="#26334A"/>
+    <text x="992" y="805" fill="#718096" font-size="9" letter-spacing=".8">USAGE RULES</text>
+    <text x="992" y="834" fill="#F1F5F9" font-size="12" font-weight="600">颜色只表达含义，不表达装饰。</text>
+    <text x="992" y="858" fill="#A0AEC0" font-size="8">01　蓝色作为主要品牌色和交互色；避免大面积饱和蓝背景。</text>
+    <text x="992" y="880" fill="#A0AEC0" font-size="8">02　青色用于实时状态、图表高亮和数据刷新反馈。</text>
+    <text x="992" y="902" fill="#A0AEC0" font-size="8">03　青绿色用于 Confirmed / Healthy；琥珀色用于 Unverified / Watch。</text>
+    <text x="992" y="924" fill="#A0AEC0" font-size="8">04　红色只用于风险、警报和高危状态；紫色只用于 Prediction Research。</text>
+    <text x="992" y="946" fill="#A0AEC0" font-size="8">05　状态不能只靠颜色：始终搭配文字、图标或形状。</text>
+    <text x="992" y="968" fill="#A0AEC0" font-size="8">06　所有页面通过 CSS Variables 使用同一套 Token。</text>
+  </g>
+</svg>

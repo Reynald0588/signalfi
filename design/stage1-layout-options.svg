@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06090f"/>
+      <stop offset=".55" stop-color="#0a111b"/>
+      <stop offset="1" stop-color="#071018"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#79a9ff"/>
+      <stop offset="1" stop-color="#78f2bf"/>
+    </linearGradient>
+    <linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#78f2bf" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#78f2bf" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#8aa0bd" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="1120" fill="url(#bg)"/>
+  <rect width="1600" height="1120" fill="url(#grid)"/>
+  <circle cx="1420" cy="80" r="380" fill="#2bbd8a" opacity=".055"/>
+  <circle cx="160" cy="1040" r="300" fill="#3476bd" opacity=".04"/>
+
+  <g font-family="Segoe UI, Microsoft YaHei, sans-serif">
+    <text x="48" y="58" fill="#78f2bf" font-size="12" font-weight="700" letter-spacing="3">SIGNALFI · STAGE 1 DESIGN DECISION</text>
+    <text x="48" y="114" fill="#edf4fb" font-size="42" font-weight="700" letter-spacing="-1">先选布局骨架，再进入前端开发</text>
+    <text x="48" y="148" fill="#7f8ea3" font-size="16">三种方向都使用深色专业终端风格，区别在导航方式、信息密度与页面节奏。</text>
+    <rect x="1360" y="38" width="192" height="32" rx="16" fill="#78f2bf" fill-opacity=".1" stroke="#78f2bf" stroke-opacity=".28"/>
+    <circle cx="1380" cy="54" r="4" fill="#78f2bf"/>
+    <text x="1394" y="59" fill="#a8f6d7" font-size="11" letter-spacing="1">RECOMMENDED: A</text>
+
+    <!-- Option A -->
+    <g transform="translate(48 200)">
+      <rect width="480" height="590" rx="20" fill="#0d141f" stroke="#263345"/>
+      <text x="24" y="36" fill="#e6edf6" font-size="18" font-weight="700">A · COMMAND RAIL</text>
+      <text x="24" y="58" fill="#718097" font-size="12">左侧导航 + 顶部状态栏 + 三栏信息区</text>
+      <rect x="384" y="20" width="72" height="25" rx="12" fill="#78f2bf" fill-opacity=".12"/>
+      <text x="403" y="37" fill="#78f2bf" font-size="10" font-weight="700">推荐</text>
+
+      <rect x="20" y="82" width="440" height="386" rx="12" fill="#080d15" stroke="#1e2a3b"/>
+      <rect x="20" y="82" width="92" height="386" rx="12" fill="#0e1724"/>
+      <rect x="34" y="99" width="20" height="20" rx="6" fill="#78f2bf" fill-opacity=".15" stroke="#78f2bf" stroke-opacity=".5"/>
+      <path d="M39 109h10M39 113h6" stroke="#78f2bf" stroke-width="1.5"/>
+      <text x="62" y="112" fill="#d9e5f3" font-size="9" font-weight="700">SIGNALFI</text>
+      <rect x="31" y="141" width="70" height="24" rx="6" fill="#78f2bf" fill-opacity=".1"/>
+      <text x="41" y="157" fill="#78f2bf" font-size="8">Overview</text>
+      <text x="41" y="184" fill="#7b899e" font-size="8">Signals</text>
+      <text x="41" y="211" fill="#7b899e" font-size="8">Prediction</text>
+      <text x="41" y="238" fill="#7b899e" font-size="8">Methodology</text>
+      <circle cx="40" cy="429" r="3" fill="#78f2bf"/>
+      <text x="49" y="432" fill="#66758b" font-size="7">8 sources online</text>
+
+      <rect x="120" y="82" width="340" height="34" fill="#0a111b"/>
+      <circle cx="138" cy="99" r="3" fill="#78f2bf"/>
+      <text x="148" y="102" fill="#9eb0c6" font-size="7">LIVE MONITORING</text>
+      <text x="342" y="102" fill="#66758b" font-size="7">LAST UPDATE 09:30 UTC</text>
+      <text x="136" y="139" fill="#e8eff8" font-size="15" font-weight="700">Web3 Intelligence Overview</text>
+      <text x="136" y="156" fill="#6e7d92" font-size="7">What is rising, what is risky, what deserves a deeper look.</text>
+
+      <rect x="136" y="174" width="73" height="53" rx="7" fill="#111c2a" stroke="#243247"/>
+      <rect x="217" y="174" width="73" height="53" rx="7" fill="#111c2a" stroke="#243247"/>
+      <rect x="298" y="174" width="73" height="53" rx="7" fill="#111c2a" stroke="#243247"/>
+      <rect x="379" y="174" width="73" height="53" rx="7" fill="#111c2a" stroke="#243247"/>
+      <text x="146" y="189" fill="#68778c" font-size="6">ACTIVE SIGNALS</text><text x="146" y="211" fill="#e9f0f8" font-size="17" font-weight="700">128</text>
+      <text x="227" y="189" fill="#68778c" font-size="6">RISING</text><text x="227" y="211" fill="#ffc06a" font-size="17" font-weight="700">06</text>
+      <text x="308" y="189" fill="#68778c" font-size="6">HIGH RISK</text><text x="308" y="211" fill="#ff7785" font-size="17" font-weight="700">03</text>
+      <text x="389" y="189" fill="#68778c" font-size="6">MARKET IDEAS</text><text x="389" y="211" fill="#78f2bf" font-size="17" font-weight="700">04</text>
+
+      <rect x="136" y="240" width="230" height="112" rx="8" fill="#0d1622" stroke="#1d2a3c"/>
+      <text x="148" y="257" fill="#8797ad" font-size="7">24H SIGNAL PULSE</text>
+      <path d="M148 323 C174 303 182 316 205 292 S242 308 263 276 S302 286 351 258" fill="none" stroke="url(#accent)" stroke-width="2"/>
+      <path d="M148 323 C174 303 182 316 205 292 S242 308 263 276 S302 286 351 258 L351 337 L148 337 Z" fill="url(#chartFill)"/>
+      <rect x="378" y="240" width="74" height="112" rx="8" fill="#0d1622" stroke="#1d2a3c"/>
+      <text x="389" y="257" fill="#8797ad" font-size="7">RISK</text>
+      <circle cx="415" cy="292" r="21" fill="none" stroke="#ff7785" stroke-opacity=".22" stroke-width="6"/>
+      <circle cx="415" cy="292" r="21" fill="none" stroke="#ffc06a" stroke-width="6" stroke-dasharray="70 132" transform="rotate(-90 415 292)"/>
+      <text x="405" y="297" fill="#f0d0a5" font-size="10" font-weight="700">56</text>
+
+      <text x="136" y="374" fill="#8797ad" font-size="7">SIGNAL STREAM</text>
+      <rect x="136" y="384" width="316" height="33" rx="6" fill="#0b131e" stroke="#1b283a"/>
+      <circle cx="149" cy="400" r="3" fill="#ff7785"/><text x="160" y="403" fill="#b8c4d4" font-size="7">Regulatory pressure rises across stablecoin markets</text>
+      <rect x="136" y="424" width="316" height="33" rx="6" fill="#0b131e" stroke="#1b283a"/>
+      <circle cx="149" cy="440" r="3" fill="#ffc06a"/><text x="160" y="443" fill="#b8c4d4" font-size="7">Security alert: bridge audit follow-up gains traction</text>
+
+      <text x="24" y="502" fill="#78f2bf" font-size="11" font-weight="700">优势</text>
+      <text x="24" y="522" fill="#94a2b6" font-size="10">最像专业终端，品牌辨识度最高</text>
+      <text x="24" y="540" fill="#94a2b6" font-size="10">适合承载双工作台与长期跟踪</text>
+      <text x="24" y="568" fill="#ffc06a" font-size="10" font-weight="700">取舍</text>
+      <text x="24" y="588" fill="#77869b" font-size="10">移动端需要把左侧栏折叠为顶部菜单</text>
+    </g>
+
+    <!-- Option B -->
+    <g transform="translate(560 200)">
+      <rect width="480" height="590" rx="20" fill="#0d141f" stroke="#263345"/>
+      <text x="24" y="36" fill="#e6edf6" font-size="18" font-weight="700">B · TOPBAR DASHBOARD</text>
+      <text x="24" y="58" fill="#718097" font-size="12">横向导航 + 大标题 + 卡片式驾驶舱</text>
+
+      <rect x="20" y="82" width="440" height="386" rx="12" fill="#080d15" stroke="#1e2a3b"/>
+      <rect x="20" y="82" width="440" height="38" rx="12" fill="#0e1724"/>
+      <text x="36" y="105" fill="#dce7f4" font-size="9" font-weight="700">SIGNALFI</text>
+      <text x="141" y="104" fill="#78f2bf" font-size="7">Overview</text>
+      <text x="188" y="104" fill="#6f7e93" font-size="7">Signals</text>
+      <text x="232" y="104" fill="#6f7e93" font-size="7">Prediction</text>
+      <text x="288" y="104" fill="#6f7e93" font-size="7">Methodology</text>
+      <circle cx="392" cy="101" r="3" fill="#78f2bf"/>
+      <text x="401" y="104" fill="#7f8ea3" font-size="6">LIVE</text>
+
+      <text x="36" y="153" fill="#e8eff8" font-size="17" font-weight="700">Find the signal before it becomes noise.</text>
+      <text x="36" y="170" fill="#6e7d92" font-size="7">Web3 intelligence for public opinion and prediction research.</text>
+      <rect x="358" y="143" width="84" height="25" rx="6" fill="#78f2bf" fill-opacity=".12"/>
+      <text x="377" y="159" fill="#78f2bf" font-size="7">View Signals →</text>
+
+      <rect x="36" y="190" width="100" height="58" rx="8" fill="#111c2a" stroke="#243247"/>
+      <rect x="144" y="190" width="100" height="58" rx="8" fill="#111c2a" stroke="#243247"/>
+      <rect x="252" y="190" width="100" height="58" rx="8" fill="#111c2a" stroke="#243247"/>
+      <rect x="360" y="190" width="82" height="58" rx="8" fill="#111c2a" stroke="#243247"/>
+      <text x="46" y="206" fill="#68778c" font-size="6">ACTIVE SIGNALS</text><text x="46" y="230" fill="#e9f0f8" font-size="18" font-weight="700">128</text>
+      <text x="154" y="206" fill="#68778c" font-size="6">RISING</text><text x="154" y="230" fill="#ffc06a" font-size="18" font-weight="700">06</text>
+      <text x="262" y="206" fill="#68778c" font-size="6">HIGH RISK</text><text x="262" y="230" fill="#ff7785" font-size="18" font-weight="700">03</text>
+      <text x="370" y="206" fill="#68778c" font-size="6">MARKETS</text><text x="370" y="230" fill="#78f2bf" font-size="18" font-weight="700">04</text>
+
+      <rect x="36" y="264" width="256" height="112" rx="8" fill="#0d1622" stroke="#1d2a3c"/>
+      <text x="48" y="281" fill="#8797ad" font-size="7">SIGNAL VELOCITY · 24H</text>
+      <path d="M48 349 C82 331 91 345 118 312 S158 335 184 294 S234 311 277 272" fill="none" stroke="url(#accent)" stroke-width="2"/>
+      <path d="M48 349 C82 331 91 345 118 312 S158 335 184 294 S234 311 277 272 L277 363 L48 363 Z" fill="url(#chartFill)"/>
+      <rect x="302" y="264" width="140" height="112" rx="8" fill="#0d1622" stroke="#1d2a3c"/>
+      <text x="314" y="281" fill="#8797ad" font-size="7">RISK ALERTS</text>
+      <rect x="314" y="293" width="116" height="18" rx="4" fill="#ff7785" fill-opacity=".08"/>
+      <text x="321" y="305" fill="#ffb1b8" font-size="6">Stablecoin policy · High</text>
+      <rect x="314" y="317" width="116" height="18" rx="4" fill="#ffc06a" fill-opacity=".08"/>
+      <text x="321" y="329" fill="#f0d0a5" font-size="6">Bridge audit · Monitor</text>
+      <rect x="314" y="341" width="116" height="18" rx="4" fill="#79a9ff" fill-opacity=".08"/>
+      <text x="321" y="353" fill="#b7d0ff" font-size="6">Market candidate · 04</text>
+
+      <text x="36" y="399" fill="#8797ad" font-size="7">LATEST SIGNALS</text>
+      <rect x="36" y="409" width="406" height="29" rx="6" fill="#0b131e" stroke="#1b283a"/>
+      <text x="48" y="428" fill="#b8c4d4" font-size="7">01  Regulatory pressure rises across stablecoin markets</text>
+      <rect x="36" y="445" width="406" height="29" rx="6" fill="#0b131e" stroke="#1b283a"/>
+      <text x="48" y="464" fill="#b8c4d4" font-size="7">02  Security alert: bridge audit follow-up gains traction</text>
+
+      <text x="24" y="502" fill="#78f2bf" font-size="11" font-weight="700">优势</text>
+      <text x="24" y="522" fill="#94a2b6" font-size="10">最熟悉、最稳妥，适合作品集快速阅读</text>
+      <text x="24" y="540" fill="#94a2b6" font-size="10">顶部导航在手机端最容易适配</text>
+      <text x="24" y="568" fill="#ffc06a" font-size="10" font-weight="700">取舍</text>
+      <text x="24" y="588" fill="#77869b" font-size="10">终端产品感略弱，容易像普通数据看板</text>
+    </g>
+
+    <!-- Option C -->
+    <g transform="translate(1072 200)">
+      <rect width="480" height="590" rx="20" fill="#0d141f" stroke="#263345"/>
+      <text x="24" y="36" fill="#e6edf6" font-size="18" font-weight="700">C · SPLIT WORKBENCH</text>
+      <text x="24" y="58" fill="#718097" font-size="12">顶部导航 + 左事件流 + 右分析工作区</text>
+
+      <rect x="20" y="82" width="440" height="386" rx="12" fill="#080d15" stroke="#1e2a3b"/>
+      <rect x="20" y="82" width="440" height="36" rx="12" fill="#0e1724"/>
+      <text x="36" y="104" fill="#dce7f4" font-size="9" font-weight="700">SIGNALFI</text>
+      <text x="136" y="104" fill="#78f2bf" font-size="7">Overview</text>
+      <text x="180" y="104" fill="#6f7e93" font-size="7">Signals</text>
+      <text x="224" y="104" fill="#6f7e93" font-size="7">Prediction</text>
+      <text x="280" y="104" fill="#6f7e93" font-size="7">Methodology</text>
+      <circle cx="398" cy="101" r="3" fill="#78f2bf"/>
+      <text x="407" y="104" fill="#7f8ea3" font-size="6">LIVE</text>
+
+      <rect x="30" y="132" width="205" height="320" rx="8" fill="#0b131e" stroke="#1d2a3c"/>
+      <text x="42" y="151" fill="#8797ad" font-size="7">SIGNALS · ALL</text>
+      <rect x="42" y="164" width="181" height="42" rx="6" fill="#111c2a" stroke="#263345"/>
+      <circle cx="54" cy="178" r="3" fill="#ff7785"/><text x="64" y="181" fill="#d2dbe7" font-size="7">Stablecoin regulatory pressure</text>
+      <text x="64" y="195" fill="#6e7d92" font-size="6">RISK 78 · 4 sources · +42% heat</text>
+      <rect x="42" y="214" width="181" height="42" rx="6" fill="#111c2a" stroke="#263345"/>
+      <circle cx="54" cy="228" r="3" fill="#ffc06a"/><text x="64" y="231" fill="#d2dbe7" font-size="7">Bridge audit follow-up</text>
+      <text x="64" y="245" fill="#6e7d92" font-size="6">RISK 74 · 2 sources · +18% heat</text>
+      <rect x="42" y="264" width="181" height="42" rx="6" fill="#111c2a" stroke="#263345"/>
+      <circle cx="54" cy="278" r="3" fill="#78f2bf"/><text x="64" y="281" fill="#d2dbe7" font-size="7">Prediction market candidate</text>
+      <text x="64" y="295" fill="#6e7d92" font-size="6">RESEARCH · Market matching</text>
+      <rect x="42" y="314" width="181" height="42" rx="6" fill="#111c2a" stroke="#263345"/>
+      <circle cx="54" cy="328" r="3" fill="#79a9ff"/><text x="64" y="331" fill="#d2dbe7" font-size="7">Market probability movement</text>
+      <text x="64" y="345" fill="#6e7d92" font-size="6">WATCH · 3 sources</text>
+      <text x="42" y="390" fill="#6e7d92" font-size="6">Filter by risk · category · status · velocity</text>
+      <text x="42" y="408" fill="#78f2bf" font-size="6">+ Load more</text>
+
+      <rect x="247" y="132" width="203" height="320" rx="8" fill="#0d1622" stroke="#1d2a3c"/>
+      <text x="261" y="151" fill="#8797ad" font-size="7">ANALYSIS / EVENT DETAIL</text>
+      <text x="261" y="175" fill="#e8eff8" font-size="10" font-weight="700">Stablecoin regulatory pressure</text>
+      <text x="261" y="192" fill="#78f2bf" font-size="6">CONFIRMED · RISING · HIGH RISK</text>
+      <rect x="261" y="208" width="175" height="55" rx="6" fill="#111c2a" stroke="#243247"/>
+      <text x="272" y="224" fill="#8999ae" font-size="6">Observed items</text><text x="272" y="245" fill="#e7eef7" font-size="14" font-weight="700">24</text>
+      <text x="337" y="224" fill="#8999ae" font-size="6">Sources</text><text x="337" y="245" fill="#e7eef7" font-size="14" font-weight="700">06</text>
+      <text x="261" y="284" fill="#8999ae" font-size="6">TIMELINE</text>
+      <path d="M274 300v78" stroke="#2e4055" stroke-width="1"/>
+      <circle cx="274" cy="306" r="3" fill="#78f2bf"/><text x="285" y="309" fill="#b7c3d3" font-size="6">Official update detected</text>
+      <circle cx="274" cy="331" r="3" fill="#ffc06a"/><text x="285" y="334" fill="#b7c3d3" font-size="6">Second source crosses threshold</text>
+      <circle cx="274" cy="356" r="3" fill="#ff7785"/><text x="285" y="359" fill="#b7c3d3" font-size="6">Risk score rises to 78</text>
+      <rect x="261" y="398" width="175" height="34" rx="6" fill="#78f2bf" fill-opacity=".08" stroke="#78f2bf" stroke-opacity=".16"/>
+      <text x="272" y="419" fill="#b9f7df" font-size="6">Open evidence chain & market context →</text>
+
+      <text x="24" y="502" fill="#78f2bf" font-size="11" font-weight="700">优势</text>
+      <text x="24" y="522" fill="#94a2b6" font-size="10">最像真实分析工作台，适合展示分析流程</text>
+      <text x="24" y="540" fill="#94a2b6" font-size="10">事件列表与证据链可以同屏联动</text>
+      <text x="24" y="568" fill="#ffc06a" font-size="10" font-weight="700">取舍</text>
+      <text x="24" y="588" fill="#77869b" font-size="10">信息密度最高，Overview 首屏会较复杂</text>
+    </g>
+
+    <!-- recommendation -->
+    <rect x="48" y="828" width="1504" height="226" rx="18" fill="#0d141f" stroke="#263345"/>
+    <text x="78" y="866" fill="#78f2bf" font-size="11" font-weight="700" letter-spacing="2">RECOMMENDATION</text>
+    <text x="78" y="900" fill="#e8eff8" font-size="21" font-weight="700">A 作为整体骨架，C 作为 Signals 工作台，B 只用于移动端简化导航</text>
+    <text x="78" y="930" fill="#8998ad" font-size="12">桌面端保留左栏终端感；Signals 详情以侧边抽屉打开；手机端将左栏折叠成顶部菜单，避免布局拥挤。</text>
+    <text x="78" y="954" fill="#8998ad" font-size="12">第一版不追求复杂动画，优先保证 Overview 的 5 秒理解和 Signals 的可操作性。</text>
+
+    <text x="78" y="994" fill="#65748a" font-size="9" letter-spacing="1">SIGNAL PALETTE</text>
+    <rect x="180" y="980" width="24" height="24" rx="6" fill="#78f2bf"/>
+    <rect x="212" y="980" width="24" height="24" rx="6" fill="#79a9ff"/>
+    <rect x="244" y="980" width="24" height="24" rx="6" fill="#ffc06a"/>
+    <rect x="276" y="980" width="24" height="24" rx="6" fill="#ff7785"/>
+    <rect x="308" y="980" width="24" height="24" rx="6" fill="#0d141f" stroke="#33455b"/>
+    <text x="345" y="997" fill="#7f8ea3" font-size="9">Mint / Blue / Amber / Risk / Terminal Black</text>
+
+    <text x="690" y="994" fill="#65748a" font-size="9" letter-spacing="1">LOGO DIRECTION</text>
+    <circle cx="835" cy="992" r="17" fill="none" stroke="#78f2bf" stroke-opacity=".35"/>
+    <path d="M821 999c7-1 8-13 15-12s6 6 13 4" fill="none" stroke="#78f2bf" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="838" cy="989" r="3" fill="#78f2bf" filter="url(#glow)"/>
+    <text x="862" y="997" fill="#7f8ea3" font-size="9">S-wave + radar point + terminal cursor</text>
+
+    <rect x="1200" y="960" width="322" height="56" rx="9" fill="#78f2bf" fill-opacity=".06" stroke="#78f2bf" stroke-opacity=".18"/>
+    <text x="1218" y="982" fill="#b9f7df" font-size="10" font-weight="700">下一步：选择 A / B / C</text>
+    <text x="1218" y="1000" fill="#7f8ea3" font-size="9">其余配色、密度、语言采用推荐默认值即可</text>
+  </g>
+</svg>
+
