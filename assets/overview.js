@@ -51,8 +51,6 @@
   }
   function pageHead(view) {
     const stats = view.stats;
-    const demoEvent = view.events[0];
-    const demoHref = demoEvent ? `signals.html?event=${encodeURIComponent(demoEvent.id)}&demo=1` : "signals.html";
     return `
       <div class="page-title-block">
         <div class="eyebrow"><span class="live-dot"></span>SIGNALFI · WEB3 OPERATIONS & PREDICTION RESEARCH</div>
@@ -71,8 +69,7 @@
           <span class="muted">${t("最后同步", "Last sync")} ${escapeHTML(SF.formatSyncTime(view.generatedAt))}</span>
         </div>
         <div class="page-head-actions">
-          <a class="button button-primary" href="${demoHref}">${icon("arrow-right")}${t("开始 2 分钟演示", "Start 2-minute demo")}</a>
-          <button class="button button-ghost" id="overview-brief" type="button">${icon("file-search")}${t("查看情报简报", "View brief")}</button>
+          <button class="button button-primary" id="overview-brief" type="button">${icon("file-search")}${t("查看情报简报", "View brief")}</button>
           <button class="button button-ghost" id="overview-download" type="button">${icon("download")}${t("Markdown", "Markdown")}</button>
         </div>
       </div>`;

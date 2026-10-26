@@ -44,7 +44,7 @@
   function methodologyHead(view) {
     return `
       <div class="page-title-block"><div class="eyebrow">${icon("book-open", "icon icon-sm")}PRODUCT GUIDE · METHODOLOGY</div><h1>${t("产品说明书", "Product Guide")}</h1><p>${t("解释 SignalFi 如何选择来源、处理数据、定义热点与风险，以及如何判断一个事件是否适合进入预测市场研究。", "How SignalFi selects sources, processes data, defines heat and risk, and decides whether an event is suitable for prediction-market research.")}</p></div>
-      <div class="page-head-side methodology-meta"><span>${t("版本", "Version")} <b>v2.0</b></span><span>${t("用途", "Purpose")} <b>${t("求职演示原型", "Job-search prototype")}</b></span><span>${t("数据模式", "Data mode")} <b>${view.mode === "demo" ? t("示例数据", "SAMPLE DATA") : t("公开数据快照", "PUBLIC SNAPSHOT")}</b></span><span>${t("最后同步", "Last sync")} <b>${escapeHTML(SF.formatSyncTime(view.generatedAt))}</b></span></div>`;
+      <div class="page-head-side methodology-meta"><span>${t("版本", "Version")} <b>v2.0.1</b></span><span>${t("用途", "Purpose")} <b>${t("求职演示原型", "Job-search prototype")}</b></span><span>${t("数据模式", "Data mode")} <b>${view.mode === "demo" ? t("示例数据", "SAMPLE DATA") : t("公开数据快照", "PUBLIC SNAPSHOT")}</b></span><span>${t("最后同步", "Last sync")} <b>${escapeHTML(SF.formatSyncTime(view.generatedAt))}</b></span></div>`;
   }
 
   function methodIndex() {

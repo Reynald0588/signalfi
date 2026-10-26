@@ -1,5 +1,13 @@
 # SignalFi Changelog
 
+## v2.0.1-job-demo — 2026-10-26
+
+Visual cleanup for the portfolio demo.
+
+- Removed the homepage "Start 2-minute demo" button so the first screen remains product-focused.
+- Kept the intelligence brief as the primary homepage action.
+- Updated the video plan to navigate through the main product navigation instead of a demo-only CTA.
+
 ## v2.0-job-demo — 2026-10-26
 
 Job-search demonstration edition focused on Web3 user operations and prediction-market research roles.
