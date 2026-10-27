@@ -6,6 +6,7 @@
 - Disabled AI calls in the scheduled workflow so the portfolio deployment has no token cost.
 - Added a live-data guard that preserves the previous successful deployment when collection falls back to demo data.
 - Updated the website status copy to distinguish automated snapshots from sample data.
+- Published the live portfolio at https://reynald0588.github.io/signalfi/.
 ## v2.0.1-job-demo — 2026-10-26
 
 Visual cleanup for the portfolio demo.

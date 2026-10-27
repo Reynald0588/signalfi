@@ -5,6 +5,8 @@
 当前版本：**v2.0.1-job-demo（求职演示专用版）**。
 公开 RSS/API 由 GitHub Actions 每 6 小时尝试采集并发布；项目不是实时生产系统。
 
+在线演示：https://reynald0588.github.io/signalfi/
+
 ![SignalFi Overview](preview.png)
 
 ## 页面
