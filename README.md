@@ -3,7 +3,7 @@
 面向 Web3 用户运营与预测市场研究的求职作品集原型，用于展示热点发现、风险判断、运营行动和预测市场候选研究的工作流。
 
 当前版本：**v2.0.1-job-demo（求职演示专用版）**。
-当前数据为公开来源示例快照，采用手动更新；项目不是实时生产系统。
+公开 RSS/API 由 GitHub Actions 每 6 小时尝试采集并发布；项目不是实时生产系统。
 
 ![SignalFi Overview](preview.png)
 
@@ -159,7 +159,7 @@ data/translation_cache.json 已翻译标题、摘要与市场问题缓存
 2. 事件状态持久化与跨运行跟踪
 3. AI 结构化简报优化
 4. 预测市场关联与概率变化
-5. GitHub Pages / 腾讯云部署
+5. 自定义域名或腾讯云迁移
 6. 真实案例研究、简历和演示视频
 
 ## AI 配置
@@ -178,12 +178,11 @@ AI_MODEL=deepseek-chat
 
 ## GitHub Pages
 
-`.github/workflows/update.yml` 已配置定时刷新与 Pages 部署。启用时：
+`.github/workflows/update.yml` 已配置每 6 小时刷新与 GitHub Pages 部署。首次发布时：
 
-1. 推送项目到 GitHub
-2. Settings → Pages → Source 选择 GitHub Actions
-3. 在 Repository Secrets 中配置 `AI_API_KEY`（可选）
-4. 手动运行一次 workflow
+1. 创建公开 GitHub 仓库并推送项目
+2. Settings → Pages → Build and deployment → Source 选择 `GitHub Actions`
+3. 打开 Actions → `Refresh SignalFi and deploy` → Run workflow
 
-工作流会复制全部 HTML 文件、静态资源和最新数据到部署产物。
+工作流使用免费公开源与规则引擎，不调用 AI；如果本轮没有采集到任何实时事件，工作流会失败并保留上一次成功发布的页面，避免用示例数据覆盖线上版本。
 

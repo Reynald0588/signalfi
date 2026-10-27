@@ -125,7 +125,7 @@
             <button class="icon-button mobile-menu-button" id="mobile-menu-button" type="button" aria-label="${t("打开导航", "Open navigation")}" aria-expanded="false">${icon("menu")}</button>
           </div>
         </div>
-        <div class="prototype-strip"><span class="prototype-badge">PORTFOLIO PROTOTYPE · v2.0.1</span><span>${t("面向 Web3 运营与预测市场研究 · 公开来源示例快照 · 手动更新 · 非实时生产系统", "Web3 operations & prediction research · public-source sample snapshot · manual refresh · not a live production system")}</span></div>
+        <div class="prototype-strip"><span class="prototype-badge">PORTFOLIO PROTOTYPE · v2.0.1</span><span>${t("面向 Web3 运营与预测市场研究 · 公开 RSS/API 自动快照 · 每 6 小时尝试更新 · 非实时生产系统", "Web3 operations & prediction research · automated public RSS/API snapshot · refresh attempt every 6 hours · not a real-time production system")}</span></div>
         <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">${mobileNav}</nav>
       </header>
     `;
@@ -219,7 +219,7 @@
     const live = state.data.mode !== "demo";
     const pill = $("#mode-pill");
     pill?.classList.toggle("demo", !live);
-    if ($("#mode-label")) $("#mode-label").textContent = live ? t("公开数据快照", "PUBLIC SNAPSHOT") : t("示例数据", "SAMPLE DATA");
+    if ($("#mode-label")) $("#mode-label").textContent = live ? t("自动快照", "AUTO SNAPSHOT") : t("示例数据", "SAMPLE DATA");
     if ($("#header-sync")) $("#header-sync").textContent = `${t("最后同步", "LAST SYNC")} ${formatSyncTime(state.view.generatedAt)}`;
   }
 

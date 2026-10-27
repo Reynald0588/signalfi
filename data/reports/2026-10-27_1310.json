@@ -1,0 +1,1066 @@
+{
+  "version": "0.1.0",
+  "generated_at": "2026-10-27T05:10:31.564396Z",
+  "mode": "live",
+  "notice": "数据来自公开 RSS 与 API，事件聚类、热度与风险评分由规则引擎生成。",
+  "events": [
+    {
+      "id": "353ea5df134e",
+      "title": "Ripple gets a final go-ahead to launch its own U.S. national trust bank",
+      "summary": "The Office of the Comptroller of the Currency has approved Ripple National Trust Bank (RNTB), Ripple's CEO Brad Garlinghouse announced on X.",
+      "category": "监管",
+      "sentiment": 64,
+      "risk": 50,
+      "heat": 78,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规",
+        "Stablecoin"
+      ],
+      "entities": [
+        "Stablecoin"
+      ],
+      "source_count": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/27/ripple-gets-a-final-go-ahead-to-launch-its-own-u-s-national-trust-bank",
+          "published_at": "2026-10-27T04:28:49Z"
+        },
+        {
+          "name": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/ripple-wins-final-us-approval-for-national-trust-bank?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published_at": "2026-10-27T00:06:41Z"
+        }
+      ],
+      "published_at": "2026-10-27T04:28:49Z",
+      "status": "new",
+      "analysis": "该事件被归类为「监管」，当前热度 78、风险 50。主要风险信号为：ban。建议结合后续来源变化持续观察。",
+      "risk_reason": "ban",
+      "is_demo": false
+    },
+    {
+      "id": "7c2b8f2a3e02",
+      "title": "Keystone breach deepens: Hackers stole key used to verify wallets as genuine",
+      "summary": "Keystone initially disclosed a leak of customer information but has since disclosed that hackers also stole a key that could allow counterfeit wallets to pass authenticity checks.",
+      "category": "安全",
+      "sentiment": 29,
+      "risk": 64,
+      "heat": 60,
+      "risk_level": "high",
+      "risk_label": "高",
+      "tags": [
+        "安全",
+        "漏洞",
+        "黑客",
+        "审计"
+      ],
+      "entities": [],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/keystone-breach-deepens-hackers-stole-key-used-to-verify-wallets-as-genuine?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published_at": "2026-10-27T01:55:03Z"
+        }
+      ],
+      "published_at": "2026-10-27T01:55:03Z",
+      "status": "new",
+      "analysis": "该事件被归类为「安全」，当前热度 60、风险 64。主要风险信号为：hack, breach。建议结合后续来源变化持续观察。",
+      "risk_reason": "hack, breach",
+      "is_demo": false
+    },
+    {
+      "id": "5a97e61a15bb",
+      "title": "OCC calls on community banks to enter the stablecoin payments market",
+      "summary": "The U.S. banking regulator is encouraging smaller lenders to develop stablecoin services as new federal licensing requirements approach.",
+      "category": "监管",
+      "sentiment": 29,
+      "risk": 67,
+      "heat": 52,
+      "risk_level": "high",
+      "risk_label": "高",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规",
+        "Stablecoin"
+      ],
+      "entities": [
+        "Stablecoin"
+      ],
+      "source_count": 2,
+      "sources": [
+        {
+          "name": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/occ-community-banks-stablecoin-issuers-genius-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published_at": "2026-10-26T21:38:30Z"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/26/occ-calls-on-community-banks-to-enter-the-stablecoin-payments-market",
+          "published_at": "2026-10-26T15:45:51Z"
+        }
+      ],
+      "published_at": "2026-10-26T21:38:30Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「监管」，当前热度 52、风险 67。主要风险信号为：sue, ban。建议结合后续来源变化持续观察。",
+      "risk_reason": "sue, ban",
+      "is_demo": false
+    },
+    {
+      "id": "178992f4355a",
+      "title": "Canada’s Draft Stablecoin Rules Cap Redemption Fees at 1% and Ban Yield",
+      "summary": "Ottawa opened a 60-day consultation on draft rules requiring one-to-one reserves and fast redemption from stablecoin issuers, while keeping the ban on paying holders interest.",
+      "category": "监管",
+      "sentiment": 29,
+      "risk": 64,
+      "heat": 52,
+      "risk_level": "high",
+      "risk_label": "高",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规",
+        "Stablecoin"
+      ],
+      "entities": [
+        "Stablecoin"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/381889/canada-draft-stablecoin-rules-redemption-fees-ban-yield",
+          "published_at": "2026-10-26T22:16:03Z"
+        }
+      ],
+      "published_at": "2026-10-26T22:16:03Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「监管」，当前热度 52、风险 64。主要风险信号为：sue, ban。建议结合后续来源变化持续观察。",
+      "risk_reason": "sue, ban",
+      "is_demo": false
+    },
+    {
+      "id": "7bcc4c847226",
+      "title": "Bitcoin Wallet Fixes Critical Flaw That Redirected Funds to Attackers",
+      "summary": "A confirmed exploit let rogue servers replace Electrum’s pending transactions, tricking users into redirecting Bitcoin to attacker addresses.",
+      "category": "安全",
+      "sentiment": 29,
+      "risk": 64,
+      "heat": 52,
+      "risk_level": "high",
+      "risk_label": "高",
+      "tags": [
+        "安全",
+        "漏洞",
+        "黑客",
+        "审计",
+        "Bitcoin"
+      ],
+      "entities": [
+        "Bitcoin"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/381844/bitcoin-wallet-flaw-trick-users-paying-attackers",
+          "published_at": "2026-10-26T17:41:21Z"
+        }
+      ],
+      "published_at": "2026-10-26T17:41:21Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「安全」，当前热度 52、风险 64。主要风险信号为：exploit, attack。建议结合后续来源变化持续观察。",
+      "risk_reason": "exploit, attack",
+      "is_demo": false
+    },
+    {
+      "id": "498e1846c749",
+      "title": "India’s CoinDCX Confirms $16 Million Loss Days After CEO Called It a ‘False Alarm’",
+      "summary": "The Mumbai-based exchange says 15.99 million USDT was drained from wallets it retired after last year’s $44 million hack, bringing its combined losses to nearly $60 million—and it’s absorbing the hit.",
+      "category": "安全",
+      "sentiment": 25,
+      "risk": 67,
+      "heat": 46,
+      "risk_level": "high",
+      "risk_label": "高",
+      "tags": [
+        "安全",
+        "漏洞",
+        "黑客",
+        "审计",
+        "USDT"
+      ],
+      "entities": [
+        "USDT"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/381834/india-coindcx-confirms-16-million-loss-ceo-called-false-alarm",
+          "published_at": "2026-10-26T16:36:03Z"
+        }
+      ],
+      "published_at": "2026-10-26T16:36:03Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「安全」，当前热度 46、风险 67。主要风险信号为：hack, drain。建议结合后续来源变化持续观察。",
+      "risk_reason": "hack, drain",
+      "is_demo": false
+    },
+    {
+      "id": "23b68d37aad1",
+      "title": "Canada opens consultation on draft stablecoin rules, maintains ban on yields",
+      "summary": "Under the draft rules, non-bank stablecoin issuers must back tokens 1:1 with reserves held at qualified Canadian institutions and settle redemptions within three business days.",
+      "category": "监管",
+      "sentiment": 29,
+      "risk": 64,
+      "heat": 44,
+      "risk_level": "high",
+      "risk_label": "高",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规",
+        "Stablecoin"
+      ],
+      "entities": [
+        "Stablecoin"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/26/canada-opens-consultation-on-draft-stablecoin-rules-maintains-ban-on-yields",
+          "published_at": "2026-10-26T14:23:41Z"
+        }
+      ],
+      "published_at": "2026-10-26T14:23:41Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「监管」，当前热度 44、风险 64。主要风险信号为：sue, ban。建议结合后续来源变化持续观察。",
+      "risk_reason": "sue, ban",
+      "is_demo": false
+    },
+    {
+      "id": "4cfbab4ca03d",
+      "title": "Ripple gains final OCC approval to launch national trust bank and bring RLUSD under federal oversight",
+      "summary": "Ripple's structure places reserve management and custody under federal supervision while leaving issuance with the New York-regulated entity.",
+      "category": "市场",
+      "sentiment": 58,
+      "risk": 39,
+      "heat": 62,
+      "risk_level": "low",
+      "risk_label": "低",
+      "tags": [
+        "市场",
+        "价格",
+        "资金流",
+        "ETF",
+        "机构"
+      ],
+      "entities": [],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-26-ripple-gains-final-occ-approval-rlusd-431810",
+          "published_at": "2026-10-27T02:28:18Z"
+        }
+      ],
+      "published_at": "2026-10-27T02:28:18Z",
+      "status": "new",
+      "analysis": "该事件被归类为「市场」，当前热度 62、风险 39。主要风险信号为：ban。建议结合后续来源变化持续观察。",
+      "risk_reason": "ban",
+      "is_demo": false
+    },
+    {
+      "id": "e2766c07bac8",
+      "title": "South Korea Arrests Seven in First Big AI-Assisted Hacking Case",
+      "summary": "Police in Seoul say a 32-year-old with no IT background used AI tools to break into about 90 hospitals, schools and companies, then pressed victims for roughly $270,000 combined.",
+      "category": "安全",
+      "sentiment": 36,
+      "risk": 54,
+      "heat": 50,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "安全",
+        "漏洞",
+        "黑客",
+        "审计"
+      ],
+      "entities": [],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/381862/south-korea-arrests-seven-first-big-ai-hacking-case",
+          "published_at": "2026-10-26T20:06:02Z"
+        }
+      ],
+      "published_at": "2026-10-26T20:06:02Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「安全」，当前热度 50、风险 54。主要风险信号为：hack。建议结合后续来源变化持续观察。",
+      "risk_reason": "hack",
+      "is_demo": false
+    },
+    {
+      "id": "6fe43b9f5312",
+      "title": "Coinbase Institutional Co-CEO: Bitcoin’s “Second Wave” of Institutional Capital has Arrived",
+      "summary": "&#9654; Bitcoin Magazine Coinbase Institutional Co-CEO: Bitcoin&#8217;s &#8220;Second Wave&#8221; of Institutional Capital has Arrived Seven mega banks tap Coinbase infrastructure. Brett Tejpaul explains why stablecoin rails are driving adoption, while institutions still view BTC as tech. This post Coinbase Institutional Co-CEO: Bitcoin&#8217;s &#8220;Second Wave&#8221; of Institutional Capital has Arrived first appeared on Bitcoin Magazine and is written by Patrick Green .",
+      "category": "监管",
+      "sentiment": 50,
+      "risk": 47,
+      "heat": 52,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规",
+        "Bitcoin",
+        "BTC"
+      ],
+      "entities": [
+        "Bitcoin",
+        "BTC",
+        "Coinbase",
+        "SEC",
+        "Stablecoin"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/videos/coinbase-institutional-co-ceo-bitcoins-second-wave-of-institutional-capital-has-arrived",
+          "published_at": "2026-10-26T19:24:08Z"
+        }
+      ],
+      "published_at": "2026-10-26T19:24:08Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「监管」，当前热度 52、风险 47。主要风险信号为：ban。建议结合后续来源变化持续观察。",
+      "risk_reason": "ban",
+      "is_demo": false
+    },
+    {
+      "id": "49a980bc80cd",
+      "title": "RedotPay weighs confidential US IPO filing by year-end: Bloomberg",
+      "summary": "The stablecoin payments company previously disputed reports that its US listing had been delayed.",
+      "category": "监管",
+      "sentiment": 50,
+      "risk": 32,
+      "heat": 62,
+      "risk_level": "low",
+      "risk_label": "低",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规",
+        "Stablecoin"
+      ],
+      "entities": [
+        "Stablecoin"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/redotpay-weighs-confidential-us-ipo-filing-by-year-end-bloomberg?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published_at": "2026-10-27T04:26:51Z"
+        }
+      ],
+      "published_at": "2026-10-27T04:26:51Z",
+      "status": "new",
+      "analysis": "该事件被归类为「监管」，当前热度 62、风险 32。主要风险信号为：未发现强风险词。建议结合后续来源变化持续观察。",
+      "risk_reason": "未发现强风险词",
+      "is_demo": false
+    },
+    {
+      "id": "bdc18862a6d9",
+      "title": "Why Prediction Markets Got the Brazilian Election So Wrong",
+      "summary": "Experts say Brazil's prediction market ban left the odds in the hands of traders with little knowledge about the election.",
+      "category": "预测市场",
+      "sentiment": 36,
+      "risk": 46,
+      "heat": 50,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "预测市场",
+        "Polymarket",
+        "Kalshi",
+        "赔率"
+      ],
+      "entities": [],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/381858/why-prediction-markets-got-brazilian-election-wrong",
+          "published_at": "2026-10-26T18:46:03Z"
+        }
+      ],
+      "published_at": "2026-10-26T18:46:03Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「预测市场」，当前热度 50、风险 46。主要风险信号为：ban。建议结合后续来源变化持续观察。",
+      "risk_reason": "ban",
+      "is_demo": false
+    },
+    {
+      "id": "3d3071e3d2bf",
+      "title": "Bitcoin Price Hovers Near $80,000 as Traders Await Fed Decision",
+      "summary": "Bitcoin Magazine Bitcoin Price Hovers Near $80,000 as Traders Await Fed Decision Bitcoin price hovers near $80,000 as traders wait on this week’s Fed decision, with geopolitical tensions and Anthropic’s possible IPO adding to the uncertainty. This post Bitcoin Price Hovers Near $80,000 as Traders Await Fed Decision first appeared on Bitcoin Magazine and is written by Micah Zimmerman .",
+      "category": "市场",
+      "sentiment": 50,
+      "risk": 30,
+      "heat": 60,
+      "risk_level": "low",
+      "risk_label": "低",
+      "tags": [
+        "市场",
+        "价格",
+        "资金流",
+        "ETF",
+        "机构",
+        "Bitcoin"
+      ],
+      "entities": [
+        "Bitcoin",
+        "DeFi"
+      ],
+      "source_count": 2,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/markets/bitcoin-price-hovers-around-80000",
+          "published_at": "2026-10-26T17:43:18Z"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/26/bitcoin-holds-near-usd80-000-as-oil-retreats-and-the-fed-decision-looms",
+          "published_at": "2026-10-26T11:24:33Z"
+        }
+      ],
+      "published_at": "2026-10-26T17:43:18Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「市场」，当前热度 60、风险 30。主要风险信号为：未发现强风险词。建议结合后续来源变化持续观察。",
+      "risk_reason": "未发现强风险词",
+      "is_demo": false
+    },
+    {
+      "id": "7f927c929cb7",
+      "title": "StoneX lifts Strive price target 34% as new stock offering bolsters bitcoin strategy",
+      "summary": "StoneX has raised its price target for bitcoin treasury company Strive to $43 from $32 and reiterated its Buy rating on the stock.",
+      "category": "市场",
+      "sentiment": 50,
+      "risk": 24,
+      "heat": 62,
+      "risk_level": "low",
+      "risk_label": "低",
+      "tags": [
+        "市场",
+        "价格",
+        "资金流",
+        "ETF",
+        "机构",
+        "Bitcoin"
+      ],
+      "entities": [
+        "Bitcoin"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-26-stonex-lifts-strive-price-target-431818",
+          "published_at": "2026-10-27T03:58:07Z"
+        }
+      ],
+      "published_at": "2026-10-27T03:58:07Z",
+      "status": "new",
+      "analysis": "该事件被归类为「市场」，当前热度 62、风险 24。主要风险信号为：未发现强风险词。建议结合后续来源变化持续观察。",
+      "risk_reason": "未发现强风险词",
+      "is_demo": false
+    },
+    {
+      "id": "bd628d4f0077",
+      "title": "BlackRock joins SBI and Startale to link tokenized MMFs with Japanese yen stablecoins",
+      "summary": "BlackRock, SBI Holdings, and Startale will explore connecting tokenized money market funds with SBI's Japanese yen-pegged stablecoin JPYSC.",
+      "category": "监管",
+      "sentiment": 50,
+      "risk": 32,
+      "heat": 56,
+      "risk_level": "low",
+      "risk_label": "低",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规",
+        "Stablecoin",
+        "BlackRock"
+      ],
+      "entities": [
+        "Stablecoin",
+        "BlackRock"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-26-blackrock-sbi-startale-mou-431642",
+          "published_at": "2026-10-27T01:00:00Z"
+        }
+      ],
+      "published_at": "2026-10-27T01:00:00Z",
+      "status": "new",
+      "analysis": "该事件被归类为「监管」，当前热度 56、风险 32。主要风险信号为：未发现强风险词。建议结合后续来源变化持续观察。",
+      "risk_reason": "未发现强风险词",
+      "is_demo": false
+    },
+    {
+      "id": "873d8914feb5",
+      "title": "AI company Anthropic announces IPO, expected as early as November",
+      "summary": "The artificial intelligence company disclosed more than $16 billion in revenue and an $80 billion net loss for the first half of 2026.",
+      "category": "技术",
+      "sentiment": 36,
+      "risk": 39,
+      "heat": 50,
+      "risk_level": "low",
+      "risk_label": "低",
+      "tags": [
+        "技术",
+        "升级",
+        "开发者",
+        "基础设施"
+      ],
+      "entities": [],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/anthropic-artificial-intelligence-ipo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published_at": "2026-10-26T18:42:41Z"
+        }
+      ],
+      "published_at": "2026-10-26T18:42:41Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「技术」，当前热度 50、风险 39。主要风险信号为：未发现强风险词。建议结合后续来源变化持续观察。",
+      "risk_reason": "未发现强风险词",
+      "is_demo": false
+    },
+    {
+      "id": "aa9a01f39dd6",
+      "title": "South Korea lawmakers mull pushing crypto tax implementation to 2029",
+      "summary": "The Seoul government is reportedly weighing another delay for a 2020 income tax policy on digital assets, citing concerns with receiving data from US officials.",
+      "category": "监管",
+      "sentiment": 36,
+      "risk": 47,
+      "heat": 42,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规"
+      ],
+      "entities": [],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/south-korea-implementation-crypto-tax-2029?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published_at": "2026-10-26T16:18:09Z"
+        }
+      ],
+      "published_at": "2026-10-26T16:18:09Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「监管」，当前热度 42、风险 47。主要风险信号为：未发现强风险词。建议结合后续来源变化持续观察。",
+      "risk_reason": "未发现强风险词",
+      "is_demo": false
+    },
+    {
+      "id": "857bd6a4573f",
+      "title": "NBA joins pro sports leagues on CFTC prediction markets bandwagon while NFL balks",
+      "summary": "The U.S. derivatives regulator, which has championed the arrival of prediction market firms such as Kalshi, has been gathering allied sports leagues.",
+      "category": "预测市场",
+      "sentiment": 36,
+      "risk": 46,
+      "heat": 42,
+      "risk_level": "medium",
+      "risk_label": "中",
+      "tags": [
+        "预测市场",
+        "Polymarket",
+        "Kalshi",
+        "赔率",
+        "CFTC"
+      ],
+      "entities": [
+        "Kalshi",
+        "CFTC"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/26/nba-joins-pro-sports-leagues-on-cftc-prediction-markets-bandwagon-while-nfl-balks",
+          "published_at": "2026-10-26T15:59:55Z"
+        }
+      ],
+      "published_at": "2026-10-26T15:59:55Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「预测市场」，当前热度 42、风险 46。主要风险信号为：ban。建议结合后续来源变化持续观察。",
+      "risk_reason": "ban",
+      "is_demo": false
+    },
+    {
+      "id": "fa06adc99567",
+      "title": "Blockstream Executive Peter Bain: Institutional Clients Say Bitcoin “Poised for a Big Bull Run”",
+      "summary": "&#9654; Bitcoin Magazine Blockstream Executive Peter Bain: Institutional Clients Say Bitcoin &#8220;Poised for a Big Bull Run&#8221; Blockstream CMO Peter Bain explains why holding $81K signals strength, the push into Swiss institutional banking, and the latest Liquid Network recovery. This post Blockstream Executive Peter Bain: Institutional Clients Say Bitcoin &#8220;Poised for a Big Bull Run&#8221; first appeared on Bitcoin Magazine and is written by Patrick Green .",
+      "category": "技术",
+      "sentiment": 58,
+      "risk": 39,
+      "heat": 46,
+      "risk_level": "low",
+      "risk_label": "低",
+      "tags": [
+        "技术",
+        "升级",
+        "开发者",
+        "基础设施",
+        "Bitcoin"
+      ],
+      "entities": [
+        "Bitcoin"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/videos/blockstream-executive-peter-bain-institutional-clients-say-bitcoin-poised-for-a-big-bull-run",
+          "published_at": "2026-10-26T13:31:07Z"
+        }
+      ],
+      "published_at": "2026-10-26T13:31:07Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「技术」，当前热度 46、风险 39。主要风险信号为：ban。建议结合后续来源变化持续观察。",
+      "risk_reason": "ban",
+      "is_demo": false
+    },
+    {
+      "id": "fe2305110642",
+      "title": "South Korea Weighs Fourth Delay of Crypto Tax, With 2029 Start Tied to U.S. Data Sharing",
+      "summary": "Bitcoin Magazine South Korea Weighs Fourth Delay of Crypto Tax, With 2029 Start Tied to U.S. Data Sharing South Korea is weighing a fourth delay of its 22% crypto tax, pushing the start from January 2027 to 2029 so authorities can access U.S. trading data once Washington joins the OECD’s Crypto-Asset Reporting Framework. This post South Korea Weighs Fourth Delay of Crypto Tax, With 2029 Start Tied to U.S. Data Sharing first appeared on Bitcoin Magazine and is written by Mica…",
+      "category": "社区",
+      "sentiment": 50,
+      "risk": 30,
+      "heat": 52,
+      "risk_level": "low",
+      "risk_label": "低",
+      "tags": [
+        "社区",
+        "空投",
+        "治理",
+        "用户反馈",
+        "Bitcoin"
+      ],
+      "entities": [
+        "Bitcoin"
+      ],
+      "source_count": 2,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/26/south-korea-weighs-fourth-delay-on-its-crypto-gains-tax-pushing-it-to-2029",
+          "published_at": "2026-10-26T14:51:07Z"
+        },
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/south-korea-weighs-fourth-delay-crypto-tax",
+          "published_at": "2026-10-26T14:06:27Z"
+        }
+      ],
+      "published_at": "2026-10-26T14:51:07Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「社区」，当前热度 52、风险 30。主要风险信号为：未发现强风险词。建议结合后续来源变化持续观察。",
+      "risk_reason": "未发现强风险词",
+      "is_demo": false
+    },
+    {
+      "id": "08c96b0652d7",
+      "title": "Cold Storage Goes South: bitcoin++ Announces Antarctica Edition",
+      "summary": "Bitcoin Magazine Cold Storage Goes South: bitcoin++ Announces Antarctica Edition bitcoin++ is planning its first cold-storage edition on a 13-day expedition to the Antarctic Peninsula. This post Cold Storage Goes South: bitcoin++ Announces Antarctica Edition first appeared on Bitcoin Magazine and is written by Micah Zimmerman .",
+      "category": "行业",
+      "sentiment": 50,
+      "risk": 24,
+      "heat": 56,
+      "risk_level": "low",
+      "risk_label": "低",
+      "tags": [
+        "行业",
+        "Bitcoin"
+      ],
+      "entities": [
+        "Bitcoin"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Bitcoin Magazine",
+          "url": "https://bitcoinmagazine.com/news/cold-storage-bitcoin-antarctica",
+          "published_at": "2026-10-27T00:00:04Z"
+        }
+      ],
+      "published_at": "2026-10-27T00:00:04Z",
+      "status": "new",
+      "analysis": "该事件被归类为「行业」，当前热度 56、风险 24。主要风险信号为：未发现强风险词。建议结合后续来源变化持续观察。",
+      "risk_reason": "未发现强风险词",
+      "is_demo": false
+    },
+    {
+      "id": "38c9f6d731f4",
+      "title": "PHP flaw shows AI ‘vulnerability apocalypse’ is on schedule: Immunefi CEO",
+      "summary": "Mitchell Amador warned internet users that websites could remain compromised for weeks, particularly smaller websites slower to adopt the emergency upgrades.",
+      "category": "社区",
+      "sentiment": 50,
+      "risk": 39,
+      "heat": 44,
+      "risk_level": "low",
+      "risk_label": "低",
+      "tags": [
+        "社区",
+        "空投",
+        "治理",
+        "用户反馈"
+      ],
+      "entities": [],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/php-flaw-ai-vulnerability-apocalypse-immunefi-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published_at": "2026-10-26T14:25:22Z"
+        }
+      ],
+      "published_at": "2026-10-26T14:25:22Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「社区」，当前热度 44、风险 39。主要风险信号为：vulnerability。建议结合后续来源变化持续观察。",
+      "risk_reason": "vulnerability",
+      "is_demo": false
+    },
+    {
+      "id": "106ea91414fd",
+      "title": "Canada opens consultation on stablecoins, citing US GENIUS Act",
+      "summary": "As part of the potential implementation of its Stablecoin Act, the Canadian government will hear from the public on a proposed framework for tokens from non-financial institutions.",
+      "category": "监管",
+      "sentiment": 50,
+      "risk": 32,
+      "heat": 48,
+      "risk_level": "low",
+      "risk_label": "低",
+      "tags": [
+        "监管",
+        "SEC",
+        "ETF",
+        "合规",
+        "Stablecoin"
+      ],
+      "entities": [
+        "Stablecoin"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/canada-consultation-stablecoins-genius-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published_at": "2026-10-26T19:47:40Z"
+        }
+      ],
+      "published_at": "2026-10-26T19:47:40Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「监管」，当前热度 48、风险 32。主要风险信号为：未发现强风险词。建议结合后续来源变化持续观察。",
+      "risk_reason": "未发现强风险词",
+      "is_demo": false
+    },
+    {
+      "id": "0ded8d9cebcb",
+      "title": "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines",
+      "summary": "The Ethereum treasury firm spent $46 million buying back shares as Chairman Tom Lee said crypto has held up better than AI stocks during the recent market pullback.",
+      "category": "技术",
+      "sentiment": 36,
+      "risk": 39,
+      "heat": 42,
+      "risk_level": "low",
+      "risk_label": "低",
+      "tags": [
+        "技术",
+        "升级",
+        "开发者",
+        "基础设施",
+        "Ethereum",
+        "ETH"
+      ],
+      "entities": [
+        "Ethereum",
+        "ETH"
+      ],
+      "source_count": 1,
+      "sources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/26/tom-lee-s-bitmine-favors-share-buybacks-to-ether-purchases-as-crypto-declines",
+          "published_at": "2026-10-26T16:05:12Z"
+        }
+      ],
+      "published_at": "2026-10-26T16:05:12Z",
+      "status": "developing",
+      "analysis": "该事件被归类为「技术」，当前热度 42、风险 39。主要风险信号为：未发现强风险词。建议结合后续来源变化持续观察。",
+      "risk_reason": "未发现强风险词",
+      "is_demo": false
+    }
+  ],
+  "market": {
+    "btc": {
+      "symbol": "BTC",
+      "price": 79712.0,
+      "change_24h": -0.36117
+    },
+    "eth": {
+      "symbol": "ETH",
+      "price": 2312.91,
+      "change_24h": -0.32045
+    },
+    "sol": {
+      "symbol": "SOL",
+      "price": 100.13,
+      "change_24h": -1.11965
+    },
+    "fear_greed": {
+      "value": 48,
+      "label": "Neutral"
+    },
+    "global_market_cap": null,
+    "market_cap_change_24h": null,
+    "is_demo": false
+  },
+  "prediction_markets": [
+    {
+      "question": "Will the price of Bitcoin be above $78,000 on October 27?",
+      "probability": 96,
+      "outcome": "Yes",
+      "volume": 67452.290974,
+      "url": "https://polymarket.com/event/bitcoin-above-on-october-27-2026",
+      "end_date": "2026-10-27T16:00:00Z",
+      "relevance": 10,
+      "is_demo": false
+    },
+    {
+      "question": "Will the price of Bitcoin be above $84,000 on October 27?",
+      "probability": 0,
+      "outcome": "Yes",
+      "volume": 66279.128201,
+      "url": "https://polymarket.com/event/bitcoin-above-on-october-27-2026",
+      "end_date": "2026-10-27T16:00:00Z",
+      "relevance": 10,
+      "is_demo": false
+    },
+    {
+      "question": "Will the price of Bitcoin be above $76,000 on October 27?",
+      "probability": 99,
+      "outcome": "Yes",
+      "volume": 62344.965848999986,
+      "url": "https://polymarket.com/event/bitcoin-above-on-october-27-2026",
+      "end_date": "2026-10-27T16:00:00Z",
+      "relevance": 10,
+      "is_demo": false
+    },
+    {
+      "question": "Will Bitcoin reach $90,000 in October?",
+      "probability": 3,
+      "outcome": "Yes",
+      "volume": 59920.509185,
+      "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-october-2026",
+      "end_date": "2026-11-01T04:00:00Z",
+      "relevance": 10,
+      "is_demo": false
+    }
+  ],
+  "report": {
+    "headline": "安全风险信号升温，优先核查漏洞与资金安全事件",
+    "summary": "本轮扫描共形成 24 个事件，其中 6 个达到高风险阈值。当前关注重点集中在安全、监管、监管。",
+    "risk_outlook": "当前平均风险指数为 45。建议重点关注监管、安全与社区情绪叠加的事件，并在下一轮更新时复核。",
+    "actions": [
+      "优先核查高风险事件的多来源一致性，并确认是否出现新的官方回应。",
+      "将高热度事件加入下一轮监控清单，观察 2～6 小时内传播速度变化。",
+      "结合预测市场与 BTC 24 小时变化约 -0.36%，判断是否存在可跟踪的交易或运营机会。"
+    ],
+    "event_notes": {
+      "353ea5df134e": {
+        "analysis": "该事件被归类为「监管」，当前热度 78、风险 50。主要风险信号为：ban。建议结合后续来源变化持续观察。",
+        "risk_reason": "ban"
+      },
+      "7c2b8f2a3e02": {
+        "analysis": "该事件被归类为「安全」，当前热度 60、风险 64。主要风险信号为：hack, breach。建议结合后续来源变化持续观察。",
+        "risk_reason": "hack, breach"
+      },
+      "5a97e61a15bb": {
+        "analysis": "该事件被归类为「监管」，当前热度 52、风险 67。主要风险信号为：sue, ban。建议结合后续来源变化持续观察。",
+        "risk_reason": "sue, ban"
+      },
+      "178992f4355a": {
+        "analysis": "该事件被归类为「监管」，当前热度 52、风险 64。主要风险信号为：sue, ban。建议结合后续来源变化持续观察。",
+        "risk_reason": "sue, ban"
+      },
+      "7bcc4c847226": {
+        "analysis": "该事件被归类为「安全」，当前热度 52、风险 64。主要风险信号为：exploit, attack。建议结合后续来源变化持续观察。",
+        "risk_reason": "exploit, attack"
+      },
+      "498e1846c749": {
+        "analysis": "该事件被归类为「安全」，当前热度 46、风险 67。主要风险信号为：hack, drain。建议结合后续来源变化持续观察。",
+        "risk_reason": "hack, drain"
+      },
+      "23b68d37aad1": {
+        "analysis": "该事件被归类为「监管」，当前热度 44、风险 64。主要风险信号为：sue, ban。建议结合后续来源变化持续观察。",
+        "risk_reason": "sue, ban"
+      },
+      "4cfbab4ca03d": {
+        "analysis": "该事件被归类为「市场」，当前热度 62、风险 39。主要风险信号为：ban。建议结合后续来源变化持续观察。",
+        "risk_reason": "ban"
+      },
+      "e2766c07bac8": {
+        "analysis": "该事件被归类为「安全」，当前热度 50、风险 54。主要风险信号为：hack。建议结合后续来源变化持续观察。",
+        "risk_reason": "hack"
+      },
+      "6fe43b9f5312": {
+        "analysis": "该事件被归类为「监管」，当前热度 52、风险 47。主要风险信号为：ban。建议结合后续来源变化持续观察。",
+        "risk_reason": "ban"
+      },
+      "49a980bc80cd": {
+        "analysis": "该事件被归类为「监管」，当前热度 62、风险 32。主要风险信号为：未发现强风险词。建议结合后续来源变化持续观察。",
+        "risk_reason": "未发现强风险词"
+      },
+      "bdc18862a6d9": {
+        "analysis": "该事件被归类为「预测市场」，当前热度 50、风险 46。主要风险信号为：ban。建议结合后续来源变化持续观察。",
+        "risk_reason": "ban"
+      }
+    },
+    "ai_used": false,
+    "generated_by": "规则引擎",
+    "mode": "live",
+    "generated_at": "2026-10-27T05:10:31.564396Z"
+  },
+  "stats": {
+    "event_count": 24,
+    "scanned_items": 58,
+    "high_risk_count": 6,
+    "critical_count": 0,
+    "sentiment_index": 42,
+    "risk_index": 45,
+    "source_count": 7,
+    "category_count": 7,
+    "top_category": "监管"
+  },
+  "trend": {
+    "values": [
+      18,
+      18,
+      99,
+      100,
+      67,
+      91
+    ],
+    "labels": [
+      "24h前",
+      "20h",
+      "16h",
+      "12h",
+      "8h",
+      "现在"
+    ]
+  },
+  "sources": [
+    {
+      "name": "CoinDesk",
+      "type": "RSS",
+      "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "status": "ok",
+      "item_count": 12,
+      "error": ""
+    },
+    {
+      "name": "Cointelegraph",
+      "type": "RSS",
+      "url": "https://cointelegraph.com/rss",
+      "status": "ok",
+      "item_count": 12,
+      "error": ""
+    },
+    {
+      "name": "Decrypt",
+      "type": "RSS",
+      "url": "https://decrypt.co/feed",
+      "status": "ok",
+      "item_count": 12,
+      "error": ""
+    },
+    {
+      "name": "The Block",
+      "type": "RSS",
+      "url": "https://www.theblock.co/rss.xml",
+      "status": "ok",
+      "item_count": 12,
+      "error": ""
+    },
+    {
+      "name": "Bitcoin Magazine",
+      "type": "RSS",
+      "url": "https://bitcoinmagazine.com/feed",
+      "status": "ok",
+      "item_count": 10,
+      "error": ""
+    },
+    {
+      "name": "CryptoSlate",
+      "type": "RSS",
+      "url": "https://cryptoslate.com/feed/",
+      "status": "error",
+      "item_count": 0,
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "CoinGecko",
+      "type": "Market API",
+      "url": "https://www.coingecko.com/",
+      "status": "ok",
+      "item_count": 3,
+      "error": ""
+    },
+    {
+      "name": "Polymarket",
+      "type": "Prediction Market",
+      "url": "https://polymarket.com/",
+      "status": "ok",
+      "item_count": 4,
+      "error": ""
+    }
+  ],
+  "methodology": {
+    "heat": "热度 = 新鲜度 + 来源数量 + 风险/情绪关键词信号",
+    "risk": "风险 = 高风险词 + 负面情绪 + 来源数量 + 监管/安全类别加权",
+    "sentiment": "情绪指数 0-100；数值越低代表越偏负面",
+    "ai": "AI 可选；未配置 Key 时使用规则引擎，不会影响网站运行"
+  },
+  "update_hint": "建议每 2 小时运行一次采集脚本；上线后由 GitHub Actions 或服务器 cron 自动执行。"
+}

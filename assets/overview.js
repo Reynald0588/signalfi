@@ -62,7 +62,7 @@
         </div>
       </div>
       <div class="page-head-side">
-        <div class="portfolio-status"><span class="status-dot"></span>${t("求职作品集原型 · 示例数据", "Portfolio prototype · Sample data")}</div>
+        <div class="portfolio-status"><span class="status-dot"></span>${view.mode === "demo" ? t("求职作品集原型 · 示例数据", "Portfolio prototype · sample data") : t("公开来源自动快照 · 每 6 小时更新", "Automated public-source snapshot · 6-hour refresh")}</div>
         <div class="source-health-inline">
           <span class="health-dot ${stats.activeSources === stats.totalSources ? "ok" : "warn"}"></span>
           <span>${t("数据源", "Sources")} <b>${stats.activeSources}/${stats.totalSources}</b></span>

@@ -1,5 +1,11 @@
 # SignalFi Changelog
 
+## 2026-10-27 — Automated public-data deployment
+
+- Configured GitHub Actions to attempt a free public RSS/API refresh every six hours.
+- Disabled AI calls in the scheduled workflow so the portfolio deployment has no token cost.
+- Added a live-data guard that preserves the previous successful deployment when collection falls back to demo data.
+- Updated the website status copy to distinguish automated snapshots from sample data.
 ## v2.0.1-job-demo — 2026-10-26
 
 Visual cleanup for the portfolio demo.

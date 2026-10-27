@@ -2,8 +2,8 @@ name: Refresh SignalFi and deploy
 
 on:
   schedule:
-    # GitHub Actions uses UTC. This runs every 2 hours.
-    - cron: "0 */2 * * *"
+    # GitHub Actions uses UTC. Attempt a refresh every 6 hours.
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -18,6 +18,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 12
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -27,12 +28,16 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Collect and enrich data
+      - name: Collect public data without AI cost
         env:
-          AI_API_KEY: ${{ secrets.AI_API_KEY }}
-          AI_BASE_URL: ${{ vars.AI_BASE_URL || 'https://api.deepseek.com/v1' }}
-          AI_MODEL: ${{ vars.AI_MODEL || 'deepseek-chat' }}
-        run: python scripts/collect.py
+          PYTHONUNBUFFERED: "1"
+          HTTP_TIMEOUT: "20"
+          MAX_EVENTS: "24"
+        run: python scripts/collect.py --no-ai
+
+      - name: Require a live data snapshot
+        run: >-
+          python -c "import json; d=json.load(open('data/latest.json', encoding='utf-8')); raise SystemExit(0 if d.get('mode') == 'live' else 'Collector produced demo data; keeping the previous Pages deployment')"
 
       - name: Build static site artifact
         run: |
@@ -53,6 +58,7 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    timeout-minutes: 8
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -60,5 +66,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-
