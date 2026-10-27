@@ -1,6 +1,9 @@
 name: Refresh SignalFi and deploy
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # GitHub Actions uses UTC. Attempt a refresh every 6 hours.
     - cron: "0 */6 * * *"
@@ -49,6 +52,8 @@ jobs:
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
